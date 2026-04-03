@@ -43,3 +43,11 @@ jobs:
         run: |
           set -euo pipefail
           test -f fixtures/sovereign/inventory.json
+
+      - name: Reject generated Python cache artifacts
+        run: |
+          set -euo pipefail
+          if find . \( -path "*/__pycache__/*" -o -name "*.pyc" -o -name "*.pyo" \) | grep -q .; then
+            echo "Generated Python cache artifacts are not allowed in the repository."
+            exit 1
+          fi
