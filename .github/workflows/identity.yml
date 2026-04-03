@@ -1,0 +1,33 @@
+name: Identity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify root identity files
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f RUNTIME.md
+          test -f VERSION
+          test -f LICENSE
+      - name: Verify required directories
+        run: |
+          set -euo pipefail
+          for d in             app/github-app             collectors/github collectors/npm collectors/http collectors/dns collectors/pages collectors/artifacts collectors/evidence             normalizers graph             evaluators/invariants evaluators/contracts evaluators/contradictions evaluators/trust             planners/repair planners/quarantine planners/projection             compilers/readme compilers/host compilers/badge compilers/evidence-index compilers/reports             publishers/checks publishers/issues publishers/prs publishers/epochs             workflows cli tests fixtures
+          do
+            test -d "$d"
+          done
+      - name: Verify README boundary strings
+        run: |
+          set -euo pipefail
+          grep -Fqx "# CONSONORIUM" README.md
+          grep -Fq "CONSONORIUM is the reconciliation and runtime repository for the Verifrax system." README.md
+          grep -Fq "CONSONORIUM does not define constitutional law." README.md
+          grep -Fq "SYNTAGMARIUM -> CONSONORIUM -> ORBISTIUM" README.md

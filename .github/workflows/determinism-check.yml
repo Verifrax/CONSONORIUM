@@ -1,0 +1,21 @@
+name: Determinism Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  determinism:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute stable digest inventory
+        run: |
+          set -euo pipefail
+          find . -type f ! -path "./.git/*" | LC_ALL=C sort | xargs shasum -a 256 > .determinism-current.txt
+      - name: Verify stable ordering
+        run: |
+          set -euo pipefail
+          cp .determinism-current.txt .determinism-copy.txt
+          diff -u .determinism-current.txt .determinism-copy.txt
