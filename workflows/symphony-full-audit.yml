@@ -1,0 +1,14 @@
+name: Symphony Full Audit
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set -euo pipefail
+          test -f README.md
+          test -f RUNTIME.md
