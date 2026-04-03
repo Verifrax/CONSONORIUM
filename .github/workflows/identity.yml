@@ -38,3 +38,8 @@ jobs:
           test -f cli/consonorium.py
           test -f fixtures/cli/inventory.expected.json
           test -f tests/test_cli_modes.py
+
+      - name: Verify sovereign inventory fixture
+        run: |
+          set -euo pipefail
+          test -f fixtures/sovereign/inventory.json

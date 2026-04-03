@@ -32,3 +32,7 @@ CONSONORIUM turns observed Verifrax state into lawful or unlawful state classifi
 - compilers
 - publishers
 - GitHub runtime integration
+
+## Inventory candidate
+
+`inventory` currently emits a deterministic sovereign-layer candidate containing repository nodes and dependency edges for the law, state, and runtime layer.
