@@ -1,0 +1,21 @@
+{
+  "program": "consonorium",
+  "version": "0.1.0",
+  "law_source": "SYNTAGMARIUM",
+  "accepted_state_store": "ORBISTIUM",
+  "classification": "runtime",
+  "deterministic_surface": true,
+  "mode": "inventory",
+  "status": "scaffold",
+  "runtime_modes": [
+    "inventory",
+    "audit",
+    "reconcile",
+    "plan-repairs",
+    "apply-mechanical-repairs",
+    "publish-checks",
+    "publish-epoch-candidate",
+    "quarantine",
+    "project"
+  ]
+}

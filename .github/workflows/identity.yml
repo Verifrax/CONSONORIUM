@@ -31,3 +31,10 @@ jobs:
           grep -Fq "CONSONORIUM is the reconciliation and runtime repository for the Verifrax system." README.md
           grep -Fq "CONSONORIUM does not define constitutional law." README.md
           grep -Fq "SYNTAGMARIUM -> CONSONORIUM -> ORBISTIUM" README.md
+
+      - name: Verify CLI surface files
+        run: |
+          set -euo pipefail
+          test -f cli/consonorium.py
+          test -f fixtures/cli/inventory.expected.json
+          test -f tests/test_cli_modes.py
