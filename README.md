@@ -44,3 +44,11 @@ It is not the accepted state store.
 ## License
 
 Apache License 2.0
+
+## Sovereign inventory candidate
+
+The `inventory` runtime mode now emits a deterministic sovereign-layer inventory candidate for:
+
+- SYNTAGMARIUM
+- ORBISTIUM
+- CONSONORIUM

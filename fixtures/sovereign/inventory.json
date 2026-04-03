@@ -1,15 +1,4 @@
 {
-  "program": "consonorium",
-  "version": "0.1.0",
-  "law_source": "SYNTAGMARIUM",
-  "accepted_state_store": "ORBISTIUM",
-  "classification": "runtime",
-  "deterministic_surface": true,
-  "mode": "inventory",
-  "status": "candidate",
-  "summary": "Collect observed sovereign-layer inventory.",
-  "repository_count": 3,
-  "edge_count": 3,
   "repositories": [
     {
       "repo_id": "SYNTAGMARIUM",

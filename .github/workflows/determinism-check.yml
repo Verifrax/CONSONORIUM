@@ -29,3 +29,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_cli_modes.py
+
+      - name: Verify inventory fixture matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py inventory > /tmp/inventory.json
+          diff -u fixtures/cli/inventory.expected.json /tmp/inventory.json
+
+      - name: Run CLI mode tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_cli_modes.py
