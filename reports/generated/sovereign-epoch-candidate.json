@@ -1,0 +1,57 @@
+{
+  "program": "consonorium",
+  "version": "0.1.0",
+  "law_source": "SYNTAGMARIUM",
+  "accepted_state_store": "ORBISTIUM",
+  "classification": "runtime",
+  "deterministic_surface": true,
+  "mode": "publish-epoch-candidate",
+  "status": "candidate",
+  "summary": "Publish a deterministic epoch-candidate report derived from sovereign inventory.",
+  "candidate_id": "sovereign-epoch-candidate",
+  "source_report": "reports/generated/sovereign-inventory-report.json",
+  "repository_count": 3,
+  "edge_count": 3,
+  "proposed_graph": {
+    "repositories": [
+      {
+        "repo_id": "SYNTAGMARIUM",
+        "primary_role": "constitutional_law",
+        "default_branch": "main",
+        "license": "Apache-2.0",
+        "status": "merged-main"
+      },
+      {
+        "repo_id": "ORBISTIUM",
+        "primary_role": "world_state",
+        "default_branch": "main",
+        "license": "Apache-2.0",
+        "status": "merged-main"
+      },
+      {
+        "repo_id": "CONSONORIUM",
+        "primary_role": "reconciler",
+        "default_branch": "main",
+        "license": "Apache-2.0",
+        "status": "merged-main"
+      }
+    ],
+    "edges": [
+      {
+        "from": "SYNTAGMARIUM",
+        "to": "ORBISTIUM",
+        "type": "law_to_state"
+      },
+      {
+        "from": "SYNTAGMARIUM",
+        "to": "CONSONORIUM",
+        "type": "law_to_runtime"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "ORBISTIUM",
+        "type": "runtime_to_state"
+      }
+    ]
+  }
+}
