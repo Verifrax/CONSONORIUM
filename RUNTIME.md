@@ -78,3 +78,9 @@ python3 cli/consonorium.py plan-repairs > reports/generated/sovereign-repair-pla
 The runtime can materialize a deterministic mechanical-repair application report with:
 
 python3 cli/consonorium.py apply-mechanical-repairs > reports/generated/sovereign-mechanical-repair-application.json
+
+## Projection report materialization
+
+The runtime can materialize a deterministic projection report with:
+
+python3 cli/consonorium.py project > reports/generated/sovereign-projection-report.json

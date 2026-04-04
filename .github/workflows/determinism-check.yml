@@ -128,3 +128,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_apply_mechanical_repairs.py
+
+      - name: Verify projection report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py project > /tmp/projection-report.json
+          diff -u reports/generated/sovereign-projection-report.json /tmp/projection-report.json
+
+      - name: Run projection report tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_projection_report.py
