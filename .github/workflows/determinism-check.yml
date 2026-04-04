@@ -62,3 +62,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_epoch_candidate.py
+
+      - name: Verify check report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py publish-checks > /tmp/check-report.json
+          diff -u reports/generated/sovereign-check-report.json /tmp/check-report.json
+
+      - name: Run check report tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_check_report.py

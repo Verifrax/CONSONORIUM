@@ -28,7 +28,7 @@ SUMMARY = {
     "reconcile": "Compute candidate lawful state from observed inputs.",
     "plan-repairs": "Generate mechanically safe repair plans where target state is unambiguous.",
     "apply-mechanical-repairs": "Apply approved mechanical repair actions only.",
-    "publish-checks": "Publish runtime verdicts to check surfaces.",
+    "publish-checks": "Publish deterministic machine verdicts for the sovereign layer.",
     "publish-epoch-candidate": "Publish a deterministic epoch-candidate report derived from sovereign inventory.",
     "quarantine": "Record ambiguous or unsafe state as quarantine-class.",
     "project": "Compile projection surfaces from evaluated state."
@@ -79,6 +79,31 @@ def epoch_candidate_payload() -> dict:
     )
     return payload
 
+def check_report_payload() -> dict:
+    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
+    checks = []
+    for repo in inventory["repositories"]:
+        checks.append(
+            {
+                "object_id": repo["repo_id"],
+                "status": "PASS",
+                "severity": "none",
+                "summary": f'{repo["repo_id"]} present in sovereign inventory with primary role {repo["primary_role"]}.',
+            }
+        )
+
+    payload = base_payload("publish-checks")
+    payload.update(
+        {
+            "status": "candidate",
+            "summary": SUMMARY["publish-checks"],
+            "check_count": len(checks),
+            "source_report": "reports/generated/sovereign-inventory-report.json",
+            "checks": checks,
+        }
+    )
+    return payload
+
 def scaffold_payload(mode: str) -> dict:
     payload = base_payload(mode)
     payload.update({"status": "scaffold", "summary": SUMMARY[mode]})
@@ -97,6 +122,8 @@ def main() -> int:
         payload = inventory_payload()
     elif args.mode == "publish-epoch-candidate":
         payload = epoch_candidate_payload()
+    elif args.mode == "publish-checks":
+        payload = check_report_payload()
     else:
         payload = scaffold_payload(args.mode)
     print(json.dumps(payload, indent=2, ensure_ascii=False))
