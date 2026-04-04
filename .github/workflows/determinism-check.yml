@@ -117,3 +117,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_repair_plan.py
+
+      - name: Verify mechanical-repair application report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py apply-mechanical-repairs > /tmp/mechanical-repair-application.json
+          diff -u reports/generated/sovereign-mechanical-repair-application.json /tmp/mechanical-repair-application.json
+
+      - name: Run mechanical-repair application tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_apply_mechanical_repairs.py

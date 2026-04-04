@@ -72,3 +72,9 @@ python3 cli/consonorium.py quarantine > reports/generated/sovereign-quarantine-r
 The runtime can materialize a deterministic repair-plan report with:
 
 python3 cli/consonorium.py plan-repairs > reports/generated/sovereign-repair-plan.json
+
+## Mechanical-repair application materialization
+
+The runtime can materialize a deterministic mechanical-repair application report with:
+
+python3 cli/consonorium.py apply-mechanical-repairs > reports/generated/sovereign-mechanical-repair-application.json
