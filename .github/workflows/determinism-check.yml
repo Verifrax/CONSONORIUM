@@ -51,3 +51,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_inventory_report.py
+
+      - name: Verify epoch-candidate report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py publish-epoch-candidate > /tmp/epoch-candidate.json
+          diff -u reports/generated/sovereign-epoch-candidate.json /tmp/epoch-candidate.json
+
+      - name: Run epoch-candidate tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_epoch_candidate.py

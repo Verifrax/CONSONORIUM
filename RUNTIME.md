@@ -36,3 +36,9 @@ CONSONORIUM turns observed Verifrax state into lawful or unlawful state classifi
 ## Inventory candidate
 
 `inventory` currently emits a deterministic sovereign-layer candidate containing repository nodes and dependency edges for the law, state, and runtime layer.
+
+## Epoch candidate materialization
+
+The runtime can materialize a deterministic epoch candidate with:
+
+python3 cli/consonorium.py publish-epoch-candidate > reports/generated/sovereign-epoch-candidate.json

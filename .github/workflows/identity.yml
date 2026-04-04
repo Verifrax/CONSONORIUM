@@ -57,3 +57,9 @@ jobs:
           set -euo pipefail
           test -f reports/generated/sovereign-inventory-report.json
           test -f tests/test_inventory_report.py
+
+      - name: Verify epoch-candidate report surface
+        run: |
+          set -euo pipefail
+          test -f reports/generated/sovereign-epoch-candidate.json
+          test -f tests/test_epoch_candidate.py
