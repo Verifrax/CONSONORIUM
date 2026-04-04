@@ -66,3 +66,9 @@ python3 cli/consonorium.py audit > reports/generated/sovereign-audit-report.json
 The runtime can materialize a deterministic quarantine report with:
 
 python3 cli/consonorium.py quarantine > reports/generated/sovereign-quarantine-report.json
+
+## Repair-plan materialization
+
+The runtime can materialize a deterministic repair-plan report with:
+
+python3 cli/consonorium.py plan-repairs > reports/generated/sovereign-repair-plan.json
