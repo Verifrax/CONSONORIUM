@@ -81,3 +81,9 @@ jobs:
           set -euo pipefail
           test -f reports/generated/sovereign-audit-report.json
           test -f tests/test_audit_report.py
+
+      - name: Verify quarantine report surface
+        run: |
+          set -euo pipefail
+          test -f reports/generated/sovereign-quarantine-report.json
+          test -f tests/test_quarantine_report.py

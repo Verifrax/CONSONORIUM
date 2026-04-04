@@ -30,7 +30,7 @@ SUMMARY = {
     "apply-mechanical-repairs": "Apply approved mechanical repair actions only.",
     "publish-checks": "Publish deterministic machine verdicts for the sovereign layer.",
     "publish-epoch-candidate": "Publish a deterministic epoch-candidate report derived from sovereign inventory.",
-    "quarantine": "Record ambiguous or unsafe state as quarantine-class.",
+    "quarantine": "Materialize a deterministic quarantine report for the sovereign layer.",
     "project": "Compile projection surfaces from evaluated state."
 }
 
@@ -135,6 +135,19 @@ def check_report_payload() -> dict:
     })
     return payload
 
+def quarantine_payload() -> dict:
+    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
+    payload = base_payload("quarantine")
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["quarantine"],
+        "quarantine_count": 0,
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "open": [],
+        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+    })
+    return payload
+
 def scaffold_payload(mode: str) -> dict:
     payload = base_payload(mode)
     payload.update({"status": "scaffold", "summary": SUMMARY[mode]})
@@ -159,6 +172,8 @@ def main() -> int:
         payload = epoch_candidate_payload()
     elif args.mode == "publish-checks":
         payload = check_report_payload()
+    elif args.mode == "quarantine":
+        payload = quarantine_payload()
     else:
         payload = scaffold_payload(args.mode)
     print(json.dumps(payload, indent=2, ensure_ascii=False))

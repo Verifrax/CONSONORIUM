@@ -60,3 +60,9 @@ python3 cli/consonorium.py reconcile > reports/generated/sovereign-reconcile-rep
 The runtime can materialize a deterministic audit report with:
 
 python3 cli/consonorium.py audit > reports/generated/sovereign-audit-report.json
+
+## Quarantine report materialization
+
+The runtime can materialize a deterministic quarantine report with:
+
+python3 cli/consonorium.py quarantine > reports/generated/sovereign-quarantine-report.json
