@@ -1,0 +1,33 @@
+{
+  "program": "consonorium",
+  "version": "0.1.0",
+  "law_source": "SYNTAGMARIUM",
+  "accepted_state_store": "ORBISTIUM",
+  "classification": "runtime",
+  "deterministic_surface": true,
+  "mode": "publish-checks",
+  "status": "candidate",
+  "summary": "Publish deterministic machine verdicts for the sovereign layer.",
+  "check_count": 3,
+  "source_report": "reports/generated/sovereign-inventory-report.json",
+  "checks": [
+    {
+      "object_id": "SYNTAGMARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "SYNTAGMARIUM present in sovereign inventory with primary role constitutional_law."
+    },
+    {
+      "object_id": "ORBISTIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "ORBISTIUM present in sovereign inventory with primary role world_state."
+    },
+    {
+      "object_id": "CONSONORIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "CONSONORIUM present in sovereign inventory with primary role reconciler."
+    }
+  ]
+}

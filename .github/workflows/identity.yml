@@ -63,3 +63,9 @@ jobs:
           set -euo pipefail
           test -f reports/generated/sovereign-epoch-candidate.json
           test -f tests/test_epoch_candidate.py
+
+      - name: Verify check report surface
+        run: |
+          set -euo pipefail
+          test -f reports/generated/sovereign-check-report.json
+          test -f tests/test_check_report.py

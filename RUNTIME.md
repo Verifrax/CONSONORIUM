@@ -42,3 +42,9 @@ CONSONORIUM turns observed Verifrax state into lawful or unlawful state classifi
 The runtime can materialize a deterministic epoch candidate with:
 
 python3 cli/consonorium.py publish-epoch-candidate > reports/generated/sovereign-epoch-candidate.json
+
+## Check report materialization
+
+The runtime can materialize a deterministic check report with:
+
+python3 cli/consonorium.py publish-checks > reports/generated/sovereign-check-report.json
