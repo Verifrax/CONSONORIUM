@@ -116,7 +116,7 @@
       "repo_id": "CONSONORIUM",
       "type": "Repository",
       "primary_role": "runtime",
-      "default_branch": "midiakiasat/consonorium-runtime-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -207,7 +207,7 @@
       "repo_id": "ORBISTIUM",
       "type": "Repository",
       "primary_role": "accepted_state_store",
-      "default_branch": "midiakiasat/orbistium-world-state-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -259,7 +259,7 @@
       "repo_id": "SYNTAGMARIUM",
       "type": "Repository",
       "primary_role": "law_source",
-      "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -316,7 +316,7 @@
       "archived": false,
       "disabled": false,
       "license": "Apache-2.0",
-      "homepage": "https://verifrax.github.io/VERIFRAX-DOCS/",
+      "homepage": "https://docs.verifrax.net/",
       "html_url": "https://github.com/Verifrax/VERIFRAX-DOCS"
     },
     {
@@ -407,7 +407,7 @@
       "archived": false,
       "disabled": false,
       "license": "Apache-2.0",
-      "homepage": "https://verifrax.net/verify",
+      "homepage": "https://verify.verifrax.net/",
       "html_url": "https://github.com/Verifrax/VERIFRAX-verify"
     },
     {
@@ -521,7 +521,7 @@
       "repo_id": "CONSONORIUM",
       "type": "Repository",
       "primary_role": "runtime",
-      "default_branch": "midiakiasat/consonorium-runtime-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -612,7 +612,7 @@
       "repo_id": "ORBISTIUM",
       "type": "Repository",
       "primary_role": "accepted_state_store",
-      "default_branch": "midiakiasat/orbistium-world-state-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -664,7 +664,7 @@
       "repo_id": "SYNTAGMARIUM",
       "type": "Repository",
       "primary_role": "law_source",
-      "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
+      "default_branch": "main",
       "visibility": "public",
       "archived": false,
       "disabled": false,
@@ -721,7 +721,7 @@
       "archived": false,
       "disabled": false,
       "license": "Apache-2.0",
-      "homepage": "https://verifrax.github.io/VERIFRAX-DOCS/",
+      "homepage": "https://docs.verifrax.net/",
       "html_url": "https://github.com/Verifrax/VERIFRAX-DOCS"
     },
     {
@@ -812,7 +812,7 @@
       "archived": false,
       "disabled": false,
       "license": "Apache-2.0",
-      "homepage": "https://verifrax.net/verify",
+      "homepage": "https://verify.verifrax.net/",
       "html_url": "https://github.com/Verifrax/VERIFRAX-verify"
     },
     {
