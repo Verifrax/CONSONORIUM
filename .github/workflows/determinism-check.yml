@@ -95,3 +95,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_audit_report.py
+
+      - name: Verify quarantine report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py quarantine > /tmp/quarantine-report.json
+          diff -u reports/generated/sovereign-quarantine-report.json /tmp/quarantine-report.json
+
+      - name: Run quarantine report tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_quarantine_report.py
