@@ -8,26 +8,194 @@
   "mode": "publish-checks",
   "status": "candidate",
   "summary": "Publish deterministic machine verdicts for the sovereign layer.",
-  "check_count": 3,
+  "check_count": 31,
   "source_report": "reports/generated/sovereign-inventory-report.json",
   "checks": [
     {
-      "object_id": "SYNTAGMARIUM",
+      "object_id": ".github",
       "status": "PASS",
       "severity": "none",
-      "summary": "SYNTAGMARIUM present in sovereign inventory with primary role constitutional_law."
+      "summary": ".github present in sovereign inventory with primary role observed_repo."
     },
     {
-      "object_id": "ORBISTIUM",
+      "object_id": "apply",
       "status": "PASS",
       "severity": "none",
-      "summary": "ORBISTIUM present in sovereign inventory with primary role world_state."
+      "summary": "apply present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "archicustos",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "archicustos present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "ARCHITECTURE",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "ARCHITECTURE present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "attestorium",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "attestorium present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "AUCTORISEAL",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "AUCTORISEAL present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "cicullis",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "cicullis present in sovereign inventory with primary role observed_repo."
     },
     {
       "object_id": "CONSONORIUM",
       "status": "PASS",
       "severity": "none",
-      "summary": "CONSONORIUM present in sovereign inventory with primary role reconciler."
+      "summary": "CONSONORIUM present in sovereign inventory with primary role runtime."
+    },
+    {
+      "object_id": "CORPIFORM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "CORPIFORM present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "guillotine",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "guillotine present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "irrevocull",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "irrevocull present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "kairoclasp",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "kairoclasp present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "limenward",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "limenward present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "MAILSIEVE",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "MAILSIEVE present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "ORBISTIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "ORBISTIUM present in sovereign inventory with primary role accepted_state_store."
+    },
+    {
+      "object_id": "originseal",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "originseal present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "proof",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "proof present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "SIGILLARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "SIGILLARIUM present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "SYNTAGMARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "SYNTAGMARIUM present in sovereign inventory with primary role law_source."
+    },
+    {
+      "object_id": "validexor",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "validexor present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-API",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-API present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-DOCS",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-DOCS present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "verifrax-marketplace-smoke",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "verifrax-marketplace-smoke present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-PROFILES",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-PROFILES present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-SAMPLES",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-SAMPLES present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-SPEC",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-SPEC present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-STATUS",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-STATUS present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-SURFACE",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-SURFACE present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-verify",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-verify present in sovereign inventory with primary role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-WWW",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-WWW present in sovereign inventory with primary role observed_repo."
     }
   ]
 }

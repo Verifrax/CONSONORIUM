@@ -8,26 +8,194 @@
   "mode": "audit",
   "status": "candidate",
   "summary": "Compute a deterministic audit report from sovereign inventory.",
-  "finding_count": 3,
+  "finding_count": 31,
   "source_report": "reports/generated/sovereign-inventory-report.json",
   "findings": [
     {
-      "object_id": "SYNTAGMARIUM",
+      "object_id": ".github",
       "status": "PASS",
       "severity": "none",
-      "summary": "SYNTAGMARIUM present on protected main with declared role constitutional_law."
+      "summary": ".github present on protected main with declared role observed_repo."
     },
     {
-      "object_id": "ORBISTIUM",
+      "object_id": "apply",
       "status": "PASS",
       "severity": "none",
-      "summary": "ORBISTIUM present on protected main with declared role world_state."
+      "summary": "apply present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "archicustos",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "archicustos present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "ARCHITECTURE",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "ARCHITECTURE present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "attestorium",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "attestorium present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "AUCTORISEAL",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "AUCTORISEAL present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "cicullis",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "cicullis present on protected main with declared role observed_repo."
     },
     {
       "object_id": "CONSONORIUM",
       "status": "PASS",
       "severity": "none",
-      "summary": "CONSONORIUM present on protected main with declared role reconciler."
+      "summary": "CONSONORIUM present on protected main with declared role runtime."
+    },
+    {
+      "object_id": "CORPIFORM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "CORPIFORM present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "guillotine",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "guillotine present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "irrevocull",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "irrevocull present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "kairoclasp",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "kairoclasp present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "limenward",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "limenward present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "MAILSIEVE",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "MAILSIEVE present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "ORBISTIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "ORBISTIUM present on protected main with declared role accepted_state_store."
+    },
+    {
+      "object_id": "originseal",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "originseal present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "proof",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "proof present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "SIGILLARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "SIGILLARIUM present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "SYNTAGMARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "SYNTAGMARIUM present on protected main with declared role law_source."
+    },
+    {
+      "object_id": "validexor",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "validexor present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-API",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-API present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-DOCS",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-DOCS present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "verifrax-marketplace-smoke",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "verifrax-marketplace-smoke present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-PROFILES",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-PROFILES present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-SAMPLES",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-SAMPLES present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-SPEC",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-SPEC present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-STATUS",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-STATUS present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-SURFACE",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-SURFACE present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-verify",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-verify present on protected main with declared role observed_repo."
+    },
+    {
+      "object_id": "VERIFRAX-WWW",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "VERIFRAX-WWW present on protected main with declared role observed_repo."
     }
   ]
 }

@@ -1,8 +1,16 @@
 from __future__ import annotations
-import json, subprocess, unittest
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+FIXTURE = json.loads((ROOT / "fixtures" / "sovereign" / "inventory.json").read_text(encoding="utf-8"))
+REPO_COUNT = len(FIXTURE["repositories"])
+EDGE_COUNT = len(FIXTURE["edges"])
+
+import json
+import subprocess
+import unittest
+
 CLI = ROOT / "cli" / "consonorium.py"
 REPORT = ROOT / "reports" / "generated" / "sovereign-inventory-report.json"
 
@@ -16,8 +24,8 @@ class InventoryReportTest(unittest.TestCase):
         payload = json.loads(REPORT.read_text(encoding="utf-8"))
         self.assertEqual(payload["mode"], "inventory")
         self.assertEqual(payload["classification"], "runtime")
-        self.assertEqual(payload["repository_count"], 3)
-        self.assertEqual(payload["edge_count"], 3)
+        self.assertEqual(payload["repository_count"], REPO_COUNT)
+        self.assertEqual(payload["edge_count"], EDGE_COUNT)
 
 if __name__ == "__main__":
     unittest.main()
