@@ -27,7 +27,7 @@ SUMMARY = {
     "audit": "Compute a deterministic audit report from sovereign inventory.",
     "reconcile": "Compute a deterministic reconcile candidate from sovereign inventory.",
     "plan-repairs": "Compute a deterministic repair-plan report from sovereign inventory.",
-    "apply-mechanical-repairs": "Apply approved mechanical repair actions only.",
+    "apply-mechanical-repairs": "Materialize a deterministic mechanical-repair application report.",
     "publish-checks": "Publish deterministic machine verdicts for the sovereign layer.",
     "publish-epoch-candidate": "Publish a deterministic epoch-candidate report derived from sovereign inventory.",
     "quarantine": "Materialize a deterministic quarantine report for the sovereign layer.",
@@ -111,6 +111,19 @@ def plan_repairs_payload() -> dict:
     })
     return payload
 
+def apply_mechanical_repairs_payload() -> dict:
+    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
+    payload = base_payload("apply-mechanical-repairs")
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["apply-mechanical-repairs"],
+        "applied_count": 0,
+        "applied_repairs": [],
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+    })
+    return payload
+
 def epoch_candidate_payload() -> dict:
     inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("publish-epoch-candidate")
@@ -183,6 +196,8 @@ def main() -> int:
         payload = reconcile_payload()
     elif args.mode == "plan-repairs":
         payload = plan_repairs_payload()
+    elif args.mode == "apply-mechanical-repairs":
+        payload = apply_mechanical_repairs_payload()
     elif args.mode == "publish-epoch-candidate":
         payload = epoch_candidate_payload()
     elif args.mode == "publish-checks":
