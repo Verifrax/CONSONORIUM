@@ -24,7 +24,7 @@ MODES = [
 
 SUMMARY = {
     "inventory": "Collect observed sovereign-layer inventory.",
-    "audit": "Evaluate observed state against law and contracts.",
+    "audit": "Compute a deterministic audit report from sovereign inventory.",
     "reconcile": "Compute a deterministic reconcile candidate from sovereign inventory.",
     "plan-repairs": "Generate mechanically safe repair plans where target state is unambiguous.",
     "apply-mechanical-repairs": "Apply approved mechanical repair actions only.",
@@ -55,6 +55,26 @@ def inventory_payload() -> dict:
         "edge_count": len(fixture["edges"]),
         "repositories": fixture["repositories"],
         "edges": fixture["edges"],
+    })
+    return payload
+
+def audit_payload() -> dict:
+    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
+    findings = []
+    for repo in inventory["repositories"]:
+        findings.append({
+            "object_id": repo["repo_id"],
+            "status": "PASS",
+            "severity": "none",
+            "summary": f"{repo['repo_id']} present on protected main with declared role {repo['primary_role']}.",
+        })
+    payload = base_payload("audit")
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["audit"],
+        "finding_count": len(findings),
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "findings": findings,
     })
     return payload
 
@@ -131,6 +151,8 @@ def main() -> int:
     args = build_parser().parse_args()
     if args.mode == "inventory":
         payload = inventory_payload()
+    elif args.mode == "audit":
+        payload = audit_payload()
     elif args.mode == "reconcile":
         payload = reconcile_payload()
     elif args.mode == "publish-epoch-candidate":

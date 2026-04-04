@@ -54,3 +54,9 @@ python3 cli/consonorium.py publish-checks > reports/generated/sovereign-check-re
 The runtime can materialize a deterministic reconcile candidate with:
 
 python3 cli/consonorium.py reconcile > reports/generated/sovereign-reconcile-report.json
+
+## Audit report materialization
+
+The runtime can materialize a deterministic audit report with:
+
+python3 cli/consonorium.py audit > reports/generated/sovereign-audit-report.json
