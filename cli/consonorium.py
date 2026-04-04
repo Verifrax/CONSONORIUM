@@ -25,7 +25,7 @@ MODES = [
 SUMMARY = {
     "inventory": "Collect observed sovereign-layer inventory.",
     "audit": "Evaluate observed state against law and contracts.",
-    "reconcile": "Compute candidate lawful state from observed inputs.",
+    "reconcile": "Compute a deterministic reconcile candidate from sovereign inventory.",
     "plan-repairs": "Generate mechanically safe repair plans where target state is unambiguous.",
     "apply-mechanical-repairs": "Apply approved mechanical repair actions only.",
     "publish-checks": "Publish deterministic machine verdicts for the sovereign layer.",
@@ -48,60 +48,71 @@ def base_payload(mode: str) -> dict:
 def inventory_payload() -> dict:
     fixture = json.loads(INVENTORY_FIXTURE.read_text(encoding="utf-8"))
     payload = base_payload("inventory")
-    payload.update(
-        {
-            "status": "candidate",
-            "summary": SUMMARY["inventory"],
-            "repository_count": len(fixture["repositories"]),
-            "edge_count": len(fixture["edges"]),
-            "repositories": fixture["repositories"],
-            "edges": fixture["edges"],
-        }
-    )
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["inventory"],
+        "repository_count": len(fixture["repositories"]),
+        "edge_count": len(fixture["edges"]),
+        "repositories": fixture["repositories"],
+        "edges": fixture["edges"],
+    })
+    return payload
+
+def reconcile_payload() -> dict:
+    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
+    payload = base_payload("reconcile")
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["reconcile"],
+        "candidate_id": "sovereign-reconcile-candidate",
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "repository_count": inventory["repository_count"],
+        "edge_count": inventory["edge_count"],
+        "contradictions_open": 0,
+        "repairs_open": 0,
+        "quarantines_open": 0,
+        "proposed_state": {
+            "repositories": inventory["repositories"],
+            "edges": inventory["edges"],
+        },
+    })
     return payload
 
 def epoch_candidate_payload() -> dict:
     inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("publish-epoch-candidate")
-    payload.update(
-        {
-            "status": "candidate",
-            "summary": SUMMARY["publish-epoch-candidate"],
-            "candidate_id": "sovereign-epoch-candidate",
-            "source_report": "reports/generated/sovereign-inventory-report.json",
-            "repository_count": inventory["repository_count"],
-            "edge_count": inventory["edge_count"],
-            "proposed_graph": {
-                "repositories": inventory["repositories"],
-                "edges": inventory["edges"],
-            },
-        }
-    )
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["publish-epoch-candidate"],
+        "candidate_id": "sovereign-epoch-candidate",
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "repository_count": inventory["repository_count"],
+        "edge_count": inventory["edge_count"],
+        "proposed_graph": {
+            "repositories": inventory["repositories"],
+            "edges": inventory["edges"],
+        },
+    })
     return payload
 
 def check_report_payload() -> dict:
     inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     checks = []
     for repo in inventory["repositories"]:
-        checks.append(
-            {
-                "object_id": repo["repo_id"],
-                "status": "PASS",
-                "severity": "none",
-                "summary": f'{repo["repo_id"]} present in sovereign inventory with primary role {repo["primary_role"]}.',
-            }
-        )
-
+        checks.append({
+            "object_id": repo["repo_id"],
+            "status": "PASS",
+            "severity": "none",
+            "summary": f"{repo['repo_id']} present in sovereign inventory with primary role {repo['primary_role']}.",
+        })
     payload = base_payload("publish-checks")
-    payload.update(
-        {
-            "status": "candidate",
-            "summary": SUMMARY["publish-checks"],
-            "check_count": len(checks),
-            "source_report": "reports/generated/sovereign-inventory-report.json",
-            "checks": checks,
-        }
-    )
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["publish-checks"],
+        "check_count": len(checks),
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "checks": checks,
+    })
     return payload
 
 def scaffold_payload(mode: str) -> dict:
@@ -120,6 +131,8 @@ def main() -> int:
     args = build_parser().parse_args()
     if args.mode == "inventory":
         payload = inventory_payload()
+    elif args.mode == "reconcile":
+        payload = reconcile_payload()
     elif args.mode == "publish-epoch-candidate":
         payload = epoch_candidate_payload()
     elif args.mode == "publish-checks":

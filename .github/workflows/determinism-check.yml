@@ -73,3 +73,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_check_report.py
+
+      - name: Verify reconcile report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py reconcile > /tmp/reconcile-report.json
+          diff -u reports/generated/sovereign-reconcile-report.json /tmp/reconcile-report.json
+
+      - name: Run reconcile report tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_reconcile_report.py
