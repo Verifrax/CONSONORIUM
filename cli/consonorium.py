@@ -31,7 +31,7 @@ SUMMARY = {
     "publish-checks": "Publish deterministic machine verdicts for the sovereign layer.",
     "publish-epoch-candidate": "Publish a deterministic epoch-candidate report derived from sovereign inventory.",
     "quarantine": "Materialize a deterministic quarantine report for the sovereign layer.",
-    "project": "Compile projection surfaces from evaluated state."
+    "project": "Compile deterministic projection outputs from sovereign inventory.",
 }
 
 def base_payload(mode: str) -> dict:
@@ -174,9 +174,27 @@ def quarantine_payload() -> dict:
     })
     return payload
 
-def scaffold_payload(mode: str) -> dict:
-    payload = base_payload(mode)
-    payload.update({"status": "scaffold", "summary": SUMMARY[mode]})
+def project_payload() -> dict:
+    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
+    projections = [
+        "reports/generated/sovereign-inventory-report.json",
+        "reports/generated/sovereign-audit-report.json",
+        "reports/generated/sovereign-check-report.json",
+        "reports/generated/sovereign-epoch-candidate.json",
+        "reports/generated/sovereign-reconcile-report.json",
+        "reports/generated/sovereign-quarantine-report.json",
+        "reports/generated/sovereign-repair-plan.json",
+        "reports/generated/sovereign-mechanical-repair-application.json",
+    ]
+    payload = base_payload("project")
+    payload.update({
+        "status": "candidate",
+        "summary": SUMMARY["project"],
+        "projection_count": len(projections),
+        "source_report": "reports/generated/sovereign-inventory-report.json",
+        "projection_outputs": projections,
+        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+    })
     return payload
 
 def build_parser() -> argparse.ArgumentParser:
@@ -188,24 +206,17 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
-    if args.mode == "inventory":
-        payload = inventory_payload()
-    elif args.mode == "audit":
-        payload = audit_payload()
-    elif args.mode == "reconcile":
-        payload = reconcile_payload()
-    elif args.mode == "plan-repairs":
-        payload = plan_repairs_payload()
-    elif args.mode == "apply-mechanical-repairs":
-        payload = apply_mechanical_repairs_payload()
-    elif args.mode == "publish-epoch-candidate":
-        payload = epoch_candidate_payload()
-    elif args.mode == "publish-checks":
-        payload = check_report_payload()
-    elif args.mode == "quarantine":
-        payload = quarantine_payload()
-    else:
-        payload = scaffold_payload(args.mode)
+    payload = {
+        "inventory": inventory_payload,
+        "audit": audit_payload,
+        "reconcile": reconcile_payload,
+        "plan-repairs": plan_repairs_payload,
+        "apply-mechanical-repairs": apply_mechanical_repairs_payload,
+        "publish-checks": check_report_payload,
+        "publish-epoch-candidate": epoch_candidate_payload,
+        "quarantine": quarantine_payload,
+        "project": project_payload,
+    }[args.mode]()
     print(json.dumps(payload, indent=2, ensure_ascii=False))
     return 0
 

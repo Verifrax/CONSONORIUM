@@ -99,3 +99,9 @@ jobs:
           set -euo pipefail
           test -f reports/generated/sovereign-mechanical-repair-application.json
           test -f tests/test_apply_mechanical_repairs.py
+
+      - name: Verify projection report surface
+        run: |
+          set -euo pipefail
+          test -f reports/generated/sovereign-projection-report.json
+          test -f tests/test_projection_report.py
