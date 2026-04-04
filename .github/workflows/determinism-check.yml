@@ -40,3 +40,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_cli_modes.py
+
+      - name: Verify materialized report matches live inventory output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py inventory > /tmp/inventory.json
+          diff -u reports/generated/sovereign-inventory-report.json /tmp/inventory.json
+
+      - name: Run inventory report tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_inventory_report.py

@@ -51,3 +51,9 @@ jobs:
             echo "Generated Python cache artifacts are not allowed in the repository."
             exit 1
           fi
+
+      - name: Verify materialized inventory report surface
+        run: |
+          set -euo pipefail
+          test -f reports/generated/sovereign-inventory-report.json
+          test -f tests/test_inventory_report.py
