@@ -15,187 +15,187 @@
       "object_id": ".github",
       "status": "PASS",
       "severity": "none",
-      "summary": ".github present on protected main with declared role observed_repo."
+      "summary": ".github present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "apply",
       "status": "PASS",
       "severity": "none",
-      "summary": "apply present on protected main with declared role observed_repo."
+      "summary": "apply present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "archicustos",
       "status": "PASS",
       "severity": "none",
-      "summary": "archicustos present on protected main with declared role observed_repo."
+      "summary": "archicustos present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "ARCHITECTURE",
       "status": "PASS",
       "severity": "none",
-      "summary": "ARCHITECTURE present on protected main with declared role observed_repo."
+      "summary": "ARCHITECTURE present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "attestorium",
       "status": "PASS",
       "severity": "none",
-      "summary": "attestorium present on protected main with declared role observed_repo."
+      "summary": "attestorium present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "AUCTORISEAL",
       "status": "PASS",
       "severity": "none",
-      "summary": "AUCTORISEAL present on protected main with declared role observed_repo."
+      "summary": "AUCTORISEAL present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "cicullis",
       "status": "PASS",
       "severity": "none",
-      "summary": "cicullis present on protected main with declared role observed_repo."
+      "summary": "cicullis present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "CONSONORIUM",
       "status": "PASS",
       "severity": "none",
-      "summary": "CONSONORIUM present on protected main with declared role runtime."
+      "summary": "CONSONORIUM present in world inventory with declared role runtime."
     },
     {
       "object_id": "CORPIFORM",
       "status": "PASS",
       "severity": "none",
-      "summary": "CORPIFORM present on protected main with declared role observed_repo."
+      "summary": "CORPIFORM present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "guillotine",
       "status": "PASS",
       "severity": "none",
-      "summary": "guillotine present on protected main with declared role observed_repo."
+      "summary": "guillotine present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "irrevocull",
       "status": "PASS",
       "severity": "none",
-      "summary": "irrevocull present on protected main with declared role observed_repo."
+      "summary": "irrevocull present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "kairoclasp",
       "status": "PASS",
       "severity": "none",
-      "summary": "kairoclasp present on protected main with declared role observed_repo."
+      "summary": "kairoclasp present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "limenward",
       "status": "PASS",
       "severity": "none",
-      "summary": "limenward present on protected main with declared role observed_repo."
+      "summary": "limenward present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "MAILSIEVE",
       "status": "PASS",
       "severity": "none",
-      "summary": "MAILSIEVE present on protected main with declared role observed_repo."
+      "summary": "MAILSIEVE present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "ORBISTIUM",
       "status": "PASS",
       "severity": "none",
-      "summary": "ORBISTIUM present on protected main with declared role accepted_state_store."
+      "summary": "ORBISTIUM present in world inventory with declared role accepted_state_store."
     },
     {
       "object_id": "originseal",
       "status": "PASS",
       "severity": "none",
-      "summary": "originseal present on protected main with declared role observed_repo."
+      "summary": "originseal present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "proof",
       "status": "PASS",
       "severity": "none",
-      "summary": "proof present on protected main with declared role observed_repo."
+      "summary": "proof present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "SIGILLARIUM",
       "status": "PASS",
       "severity": "none",
-      "summary": "SIGILLARIUM present on protected main with declared role observed_repo."
+      "summary": "SIGILLARIUM present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "SYNTAGMARIUM",
       "status": "PASS",
       "severity": "none",
-      "summary": "SYNTAGMARIUM present on protected main with declared role law_source."
+      "summary": "SYNTAGMARIUM present in world inventory with declared role law_source."
     },
     {
       "object_id": "validexor",
       "status": "PASS",
       "severity": "none",
-      "summary": "validexor present on protected main with declared role observed_repo."
+      "summary": "validexor present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-API",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-API present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-API present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-DOCS",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-DOCS present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-DOCS present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "verifrax-marketplace-smoke",
       "status": "PASS",
       "severity": "none",
-      "summary": "verifrax-marketplace-smoke present on protected main with declared role observed_repo."
+      "summary": "verifrax-marketplace-smoke present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-PROFILES",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-PROFILES present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-PROFILES present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-SAMPLES",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-SAMPLES present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-SAMPLES present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-SPEC",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-SPEC present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-SPEC present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-STATUS",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-STATUS present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-STATUS present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-SURFACE",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-SURFACE present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-SURFACE present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-verify",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-verify present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-verify present in world inventory with declared role observed_repo."
     },
     {
       "object_id": "VERIFRAX-WWW",
       "status": "PASS",
       "severity": "none",
-      "summary": "VERIFRAX-WWW present on protected main with declared role observed_repo."
+      "summary": "VERIFRAX-WWW present in world inventory with declared role observed_repo."
     }
   ]
 }
