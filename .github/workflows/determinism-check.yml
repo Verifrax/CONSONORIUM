@@ -106,3 +106,14 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest tests/test_quarantine_report.py
+
+      - name: Verify repair-plan report matches live output
+        run: |
+          set -euo pipefail
+          python3 cli/consonorium.py plan-repairs > /tmp/repair-plan.json
+          diff -u reports/generated/sovereign-repair-plan.json /tmp/repair-plan.json
+
+      - name: Run repair-plan tests
+        run: |
+          set -euo pipefail
+          python3 -m unittest tests/test_repair_plan.py
