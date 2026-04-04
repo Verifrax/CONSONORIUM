@@ -1,17 +1,16 @@
 from __future__ import annotations
 import json
+import subprocess
+import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+CLI = ROOT / "cli" / "consonorium.py"
 FIXTURE = json.loads((ROOT / "fixtures" / "sovereign" / "inventory.json").read_text(encoding="utf-8"))
 REPO_COUNT = len(FIXTURE["repositories"])
+NODE_COUNT = len(FIXTURE["nodes"])
 EDGE_COUNT = len(FIXTURE["edges"])
 
-import json
-import subprocess
-import unittest
-
-CLI = ROOT / "cli" / "consonorium.py"
 REPORT = ROOT / "reports" / "generated" / "sovereign-audit-report.json"
 
 class AuditReportTest(unittest.TestCase):
@@ -25,11 +24,12 @@ class AuditReportTest(unittest.TestCase):
         self.assertEqual(payload["mode"], "audit")
         self.assertEqual(payload["classification"], "runtime")
         self.assertEqual(payload["status"], "candidate")
-        self.assertEqual(payload["finding_count"], REPO_COUNT)
-        self.assertEqual(len(payload["findings"]), REPO_COUNT)
+        self.assertEqual(payload["finding_count"], NODE_COUNT)
+        self.assertEqual(len(payload["findings"]), NODE_COUNT)
         for item in payload["findings"]:
             self.assertEqual(item["status"], "PASS")
             self.assertEqual(item["severity"], "none")
+            self.assertIn("object_type", item)
 
 if __name__ == "__main__":
     unittest.main()

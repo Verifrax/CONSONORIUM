@@ -60,6 +60,18 @@ def node_type_counts() -> dict[str, int]:
         counts[t] = counts.get(t, 0) + 1
     return dict(sorted(counts.items()))
 
+def object_id(node: dict) -> str:
+    return str(
+        node.get("repo_id")
+        or node.get("package_id")
+        or node.get("surface_id")
+        or node.get("artifact_id")
+        or node.get("badge_id")
+        or node.get("fqdn")
+        or node.get("id")
+        or "<unknown>"
+    )
+
 def inventory_payload() -> dict:
     payload = base_payload("inventory")
     payload.update({
@@ -77,12 +89,13 @@ def inventory_payload() -> dict:
 
 def audit_payload() -> dict:
     findings = []
-    for repo in repository_list():
+    for node in node_list():
         findings.append({
-            "object_id": repo["repo_id"],
+            "object_id": object_id(node),
+            "object_type": node.get("type", "<unknown>"),
             "status": "PASS",
             "severity": "none",
-            "summary": f'{repo["repo_id"]} present in world inventory with declared role {repo.get("primary_role", "observed_repo")}.',
+            "summary": f'{object_id(node)} present in world inventory as {node.get("type", "<unknown>")}.',
         })
     payload = base_payload("audit")
     payload.update({
@@ -123,7 +136,8 @@ def plan_repairs_payload() -> dict:
         "plan_count": 0,
         "source_report": "reports/generated/sovereign-inventory-report.json",
         "open_repairs": [],
-        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
+        "reviewed_object_count": len(node_list()),
+        "reviewed_objects": [object_id(node) for node in node_list()],
     })
     return payload
 
@@ -135,7 +149,8 @@ def apply_mechanical_repairs_payload() -> dict:
         "applied_count": 0,
         "applied_repairs": [],
         "source_report": "reports/generated/sovereign-inventory-report.json",
-        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
+        "reviewed_object_count": len(node_list()),
+        "reviewed_objects": [object_id(node) for node in node_list()],
     })
     return payload
 
@@ -159,12 +174,13 @@ def epoch_candidate_payload() -> dict:
 
 def check_report_payload() -> dict:
     checks = []
-    for repo in repository_list():
+    for node in node_list():
         checks.append({
-            "object_id": repo["repo_id"],
+            "object_id": object_id(node),
+            "object_type": node.get("type", "<unknown>"),
             "status": "PASS",
             "severity": "none",
-            "summary": f'{repo["repo_id"]} present in sovereign inventory with primary role {repo.get("primary_role", "observed_repo")}.',
+            "summary": f'{object_id(node)} present in sovereign inventory as {node.get("type", "<unknown>")}.',
         })
     payload = base_payload("publish-checks")
     payload.update({
@@ -184,7 +200,8 @@ def quarantine_payload() -> dict:
         "quarantine_count": 0,
         "source_report": "reports/generated/sovereign-inventory-report.json",
         "open": [],
-        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
+        "reviewed_object_count": len(node_list()),
+        "reviewed_objects": [object_id(node) for node in node_list()],
     })
     return payload
 
@@ -206,7 +223,7 @@ def project_payload() -> dict:
         "projection_count": len(projections),
         "source_report": "reports/generated/sovereign-inventory-report.json",
         "projection_outputs": projections,
-        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
+        "reviewed_objects": [object_id(node) for node in node_list()],
     })
     return payload
 
