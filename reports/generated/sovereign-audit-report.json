@@ -1,0 +1,33 @@
+{
+  "program": "consonorium",
+  "version": "0.1.0",
+  "law_source": "SYNTAGMARIUM",
+  "accepted_state_store": "ORBISTIUM",
+  "classification": "runtime",
+  "deterministic_surface": true,
+  "mode": "audit",
+  "status": "candidate",
+  "summary": "Compute a deterministic audit report from sovereign inventory.",
+  "finding_count": 3,
+  "source_report": "reports/generated/sovereign-inventory-report.json",
+  "findings": [
+    {
+      "object_id": "SYNTAGMARIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "SYNTAGMARIUM present on protected main with declared role constitutional_law."
+    },
+    {
+      "object_id": "ORBISTIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "ORBISTIUM present on protected main with declared role world_state."
+    },
+    {
+      "object_id": "CONSONORIUM",
+      "status": "PASS",
+      "severity": "none",
+      "summary": "CONSONORIUM present on protected main with declared role reconciler."
+    }
+  ]
+}
