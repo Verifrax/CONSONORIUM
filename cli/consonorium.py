@@ -7,8 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
-INVENTORY_FIXTURE = ROOT / "fixtures" / "sovereign" / "inventory.json"
-INVENTORY_REPORT = ROOT / "reports" / "generated" / "sovereign-inventory-report.json"
+FIXTURE = json.loads((ROOT / "fixtures" / "sovereign" / "inventory.json").read_text(encoding="utf-8"))
 
 MODES = [
     "inventory",
@@ -45,28 +44,45 @@ def base_payload(mode: str) -> dict:
         "mode": mode,
     }
 
+def repository_list() -> list[dict]:
+    return FIXTURE["repositories"]
+
+def node_list() -> list[dict]:
+    return FIXTURE.get("nodes", FIXTURE["repositories"])
+
+def edge_list() -> list[dict]:
+    return FIXTURE["edges"]
+
+def node_type_counts() -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for node in node_list():
+        t = node.get("type", "<unknown>")
+        counts[t] = counts.get(t, 0) + 1
+    return dict(sorted(counts.items()))
+
 def inventory_payload() -> dict:
-    fixture = json.loads(INVENTORY_FIXTURE.read_text(encoding="utf-8"))
     payload = base_payload("inventory")
     payload.update({
         "status": "candidate",
         "summary": SUMMARY["inventory"],
-        "repository_count": len(fixture["repositories"]),
-        "edge_count": len(fixture["edges"]),
-        "repositories": fixture["repositories"],
-        "edges": fixture["edges"],
+        "repository_count": len(repository_list()),
+        "node_count": len(node_list()),
+        "edge_count": len(edge_list()),
+        "node_type_counts": node_type_counts(),
+        "repositories": repository_list(),
+        "nodes": node_list(),
+        "edges": edge_list(),
     })
     return payload
 
 def audit_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     findings = []
-    for repo in inventory["repositories"]:
+    for repo in repository_list():
         findings.append({
             "object_id": repo["repo_id"],
             "status": "PASS",
             "severity": "none",
-            "summary": f"{repo['repo_id']} present on protected main with declared role {repo['primary_role']}.",
+            "summary": f'{repo["repo_id"]} present in world inventory with declared role {repo.get("primary_role", "observed_repo")}.',
         })
     payload = base_payload("audit")
     payload.update({
@@ -79,27 +95,27 @@ def audit_payload() -> dict:
     return payload
 
 def reconcile_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("reconcile")
     payload.update({
         "status": "candidate",
         "summary": SUMMARY["reconcile"],
         "candidate_id": "sovereign-reconcile-candidate",
         "source_report": "reports/generated/sovereign-inventory-report.json",
-        "repository_count": inventory["repository_count"],
-        "edge_count": inventory["edge_count"],
+        "repository_count": len(repository_list()),
+        "node_count": len(node_list()),
+        "edge_count": len(edge_list()),
         "contradictions_open": 0,
         "repairs_open": 0,
         "quarantines_open": 0,
         "proposed_state": {
-            "repositories": inventory["repositories"],
-            "edges": inventory["edges"],
+            "repositories": repository_list(),
+            "nodes": node_list(),
+            "edges": edge_list(),
         },
     })
     return payload
 
 def plan_repairs_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("plan-repairs")
     payload.update({
         "status": "candidate",
@@ -107,12 +123,11 @@ def plan_repairs_payload() -> dict:
         "plan_count": 0,
         "source_report": "reports/generated/sovereign-inventory-report.json",
         "open_repairs": [],
-        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
     })
     return payload
 
 def apply_mechanical_repairs_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("apply-mechanical-repairs")
     payload.update({
         "status": "candidate",
@@ -120,36 +135,36 @@ def apply_mechanical_repairs_payload() -> dict:
         "applied_count": 0,
         "applied_repairs": [],
         "source_report": "reports/generated/sovereign-inventory-report.json",
-        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
     })
     return payload
 
 def epoch_candidate_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("publish-epoch-candidate")
     payload.update({
         "status": "candidate",
         "summary": SUMMARY["publish-epoch-candidate"],
         "candidate_id": "sovereign-epoch-candidate",
         "source_report": "reports/generated/sovereign-inventory-report.json",
-        "repository_count": inventory["repository_count"],
-        "edge_count": inventory["edge_count"],
+        "repository_count": len(repository_list()),
+        "node_count": len(node_list()),
+        "edge_count": len(edge_list()),
         "proposed_graph": {
-            "repositories": inventory["repositories"],
-            "edges": inventory["edges"],
+            "repositories": repository_list(),
+            "nodes": node_list(),
+            "edges": edge_list(),
         },
     })
     return payload
 
 def check_report_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     checks = []
-    for repo in inventory["repositories"]:
+    for repo in repository_list():
         checks.append({
             "object_id": repo["repo_id"],
             "status": "PASS",
             "severity": "none",
-            "summary": f"{repo['repo_id']} present in sovereign inventory with primary role {repo['primary_role']}.",
+            "summary": f'{repo["repo_id"]} present in sovereign inventory with primary role {repo.get("primary_role", "observed_repo")}.',
         })
     payload = base_payload("publish-checks")
     payload.update({
@@ -162,7 +177,6 @@ def check_report_payload() -> dict:
     return payload
 
 def quarantine_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     payload = base_payload("quarantine")
     payload.update({
         "status": "candidate",
@@ -170,12 +184,11 @@ def quarantine_payload() -> dict:
         "quarantine_count": 0,
         "source_report": "reports/generated/sovereign-inventory-report.json",
         "open": [],
-        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
     })
     return payload
 
 def project_payload() -> dict:
-    inventory = json.loads(INVENTORY_REPORT.read_text(encoding="utf-8"))
     projections = [
         "reports/generated/sovereign-inventory-report.json",
         "reports/generated/sovereign-audit-report.json",
@@ -193,7 +206,7 @@ def project_payload() -> dict:
         "projection_count": len(projections),
         "source_report": "reports/generated/sovereign-inventory-report.json",
         "projection_outputs": projections,
-        "reviewed_repositories": [repo["repo_id"] for repo in inventory["repositories"]],
+        "reviewed_repositories": [repo["repo_id"] for repo in repository_list()],
     })
     return payload
 

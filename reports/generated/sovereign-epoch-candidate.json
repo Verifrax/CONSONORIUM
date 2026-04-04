@@ -11,11 +11,14 @@
   "candidate_id": "sovereign-epoch-candidate",
   "source_report": "reports/generated/sovereign-inventory-report.json",
   "repository_count": 31,
-  "edge_count": 3,
+  "node_count": 215,
+  "edge_count": 187,
   "proposed_graph": {
     "repositories": [
       {
+        "id": ".github",
         "repo_id": ".github",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -26,7 +29,9 @@
         "html_url": "https://github.com/Verifrax/.github"
       },
       {
+        "id": "apply",
         "repo_id": "apply",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -37,7 +42,9 @@
         "html_url": "https://github.com/Verifrax/apply"
       },
       {
+        "id": "archicustos",
         "repo_id": "archicustos",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -48,7 +55,9 @@
         "html_url": "https://github.com/Verifrax/archicustos"
       },
       {
+        "id": "ARCHITECTURE",
         "repo_id": "ARCHITECTURE",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -59,7 +68,9 @@
         "html_url": "https://github.com/Verifrax/ARCHITECTURE"
       },
       {
+        "id": "attestorium",
         "repo_id": "attestorium",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -70,7 +81,9 @@
         "html_url": "https://github.com/Verifrax/attestorium"
       },
       {
+        "id": "AUCTORISEAL",
         "repo_id": "AUCTORISEAL",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -81,7 +94,9 @@
         "html_url": "https://github.com/Verifrax/AUCTORISEAL"
       },
       {
+        "id": "cicullis",
         "repo_id": "cicullis",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -92,7 +107,9 @@
         "html_url": "https://github.com/Verifrax/cicullis"
       },
       {
+        "id": "CONSONORIUM",
         "repo_id": "CONSONORIUM",
+        "type": "Repository",
         "primary_role": "runtime",
         "default_branch": "midiakiasat/consonorium-runtime-foundation",
         "visibility": "public",
@@ -103,7 +120,9 @@
         "html_url": "https://github.com/Verifrax/CONSONORIUM"
       },
       {
+        "id": "CORPIFORM",
         "repo_id": "CORPIFORM",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -114,7 +133,9 @@
         "html_url": "https://github.com/Verifrax/CORPIFORM"
       },
       {
+        "id": "guillotine",
         "repo_id": "guillotine",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -125,7 +146,9 @@
         "html_url": "https://github.com/Verifrax/guillotine"
       },
       {
+        "id": "irrevocull",
         "repo_id": "irrevocull",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -136,7 +159,9 @@
         "html_url": "https://github.com/Verifrax/irrevocull"
       },
       {
+        "id": "kairoclasp",
         "repo_id": "kairoclasp",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -147,7 +172,9 @@
         "html_url": "https://github.com/Verifrax/kairoclasp"
       },
       {
+        "id": "limenward",
         "repo_id": "limenward",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -158,7 +185,9 @@
         "html_url": "https://github.com/Verifrax/limenward"
       },
       {
+        "id": "MAILSIEVE",
         "repo_id": "MAILSIEVE",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -169,7 +198,9 @@
         "html_url": "https://github.com/Verifrax/MAILSIEVE"
       },
       {
+        "id": "ORBISTIUM",
         "repo_id": "ORBISTIUM",
+        "type": "Repository",
         "primary_role": "accepted_state_store",
         "default_branch": "midiakiasat/orbistium-world-state-foundation",
         "visibility": "public",
@@ -180,7 +211,9 @@
         "html_url": "https://github.com/Verifrax/ORBISTIUM"
       },
       {
+        "id": "originseal",
         "repo_id": "originseal",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -191,7 +224,9 @@
         "html_url": "https://github.com/Verifrax/originseal"
       },
       {
+        "id": "proof",
         "repo_id": "proof",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -202,7 +237,9 @@
         "html_url": "https://github.com/Verifrax/proof"
       },
       {
+        "id": "SIGILLARIUM",
         "repo_id": "SIGILLARIUM",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -213,7 +250,9 @@
         "html_url": "https://github.com/Verifrax/SIGILLARIUM"
       },
       {
+        "id": "SYNTAGMARIUM",
         "repo_id": "SYNTAGMARIUM",
+        "type": "Repository",
         "primary_role": "law_source",
         "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
         "visibility": "public",
@@ -224,7 +263,9 @@
         "html_url": "https://github.com/Verifrax/SYNTAGMARIUM"
       },
       {
+        "id": "validexor",
         "repo_id": "validexor",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -235,7 +276,9 @@
         "html_url": "https://github.com/Verifrax/validexor"
       },
       {
+        "id": "VERIFRAX",
         "repo_id": "VERIFRAX",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -246,7 +289,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX"
       },
       {
+        "id": "VERIFRAX-API",
         "repo_id": "VERIFRAX-API",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -257,7 +302,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-API"
       },
       {
+        "id": "VERIFRAX-DOCS",
         "repo_id": "VERIFRAX-DOCS",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -268,7 +315,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-DOCS"
       },
       {
+        "id": "verifrax-marketplace-smoke",
         "repo_id": "verifrax-marketplace-smoke",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -279,7 +328,9 @@
         "html_url": "https://github.com/Verifrax/verifrax-marketplace-smoke"
       },
       {
+        "id": "VERIFRAX-PROFILES",
         "repo_id": "VERIFRAX-PROFILES",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -290,7 +341,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-PROFILES"
       },
       {
+        "id": "VERIFRAX-SAMPLES",
         "repo_id": "VERIFRAX-SAMPLES",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -301,7 +354,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES"
       },
       {
+        "id": "VERIFRAX-SPEC",
         "repo_id": "VERIFRAX-SPEC",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -312,7 +367,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-SPEC"
       },
       {
+        "id": "VERIFRAX-STATUS",
         "repo_id": "VERIFRAX-STATUS",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -323,7 +380,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-STATUS"
       },
       {
+        "id": "VERIFRAX-SURFACE",
         "repo_id": "VERIFRAX-SURFACE",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -334,7 +393,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-SURFACE"
       },
       {
+        "id": "VERIFRAX-verify",
         "repo_id": "VERIFRAX-verify",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -345,7 +406,9 @@
         "html_url": "https://github.com/Verifrax/VERIFRAX-verify"
       },
       {
+        "id": "VERIFRAX-WWW",
         "repo_id": "VERIFRAX-WWW",
+        "type": "Repository",
         "primary_role": "observed_repo",
         "default_branch": "main",
         "visibility": "public",
@@ -354,6 +417,2408 @@
         "license": null,
         "homepage": null,
         "html_url": "https://github.com/Verifrax/VERIFRAX-WWW"
+      }
+    ],
+    "nodes": [
+      {
+        "id": ".github",
+        "repo_id": ".github",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/VERIFRAX",
+        "html_url": "https://github.com/Verifrax/.github"
+      },
+      {
+        "id": "apply",
+        "repo_id": "apply",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": "https://github.com/Verifrax/apply",
+        "html_url": "https://github.com/Verifrax/apply"
+      },
+      {
+        "id": "archicustos",
+        "repo_id": "archicustos",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/archicustos",
+        "html_url": "https://github.com/Verifrax/archicustos"
+      },
+      {
+        "id": "ARCHITECTURE",
+        "repo_id": "ARCHITECTURE",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/VERIFRAX-DOCS",
+        "html_url": "https://github.com/Verifrax/ARCHITECTURE"
+      },
+      {
+        "id": "attestorium",
+        "repo_id": "attestorium",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/attestorium",
+        "html_url": "https://github.com/Verifrax/attestorium"
+      },
+      {
+        "id": "AUCTORISEAL",
+        "repo_id": "AUCTORISEAL",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/AUCTORISEAL",
+        "html_url": "https://github.com/Verifrax/AUCTORISEAL"
+      },
+      {
+        "id": "cicullis",
+        "repo_id": "cicullis",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": "https://github.com/Verifrax/cicullis",
+        "html_url": "https://github.com/Verifrax/cicullis"
+      },
+      {
+        "id": "CONSONORIUM",
+        "repo_id": "CONSONORIUM",
+        "type": "Repository",
+        "primary_role": "runtime",
+        "default_branch": "midiakiasat/consonorium-runtime-foundation",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/CONSONORIUM"
+      },
+      {
+        "id": "CORPIFORM",
+        "repo_id": "CORPIFORM",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": "https://github.com/Verifrax/CORPIFORM",
+        "html_url": "https://github.com/Verifrax/CORPIFORM"
+      },
+      {
+        "id": "guillotine",
+        "repo_id": "guillotine",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/guillotine",
+        "html_url": "https://github.com/Verifrax/guillotine"
+      },
+      {
+        "id": "irrevocull",
+        "repo_id": "irrevocull",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/irrevocull",
+        "html_url": "https://github.com/Verifrax/irrevocull"
+      },
+      {
+        "id": "kairoclasp",
+        "repo_id": "kairoclasp",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/kairoclasp",
+        "html_url": "https://github.com/Verifrax/kairoclasp"
+      },
+      {
+        "id": "limenward",
+        "repo_id": "limenward",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/limenward",
+        "html_url": "https://github.com/Verifrax/limenward"
+      },
+      {
+        "id": "MAILSIEVE",
+        "repo_id": "MAILSIEVE",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/MAILSIEVE",
+        "html_url": "https://github.com/Verifrax/MAILSIEVE"
+      },
+      {
+        "id": "ORBISTIUM",
+        "repo_id": "ORBISTIUM",
+        "type": "Repository",
+        "primary_role": "accepted_state_store",
+        "default_branch": "midiakiasat/orbistium-world-state-foundation",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/ORBISTIUM"
+      },
+      {
+        "id": "originseal",
+        "repo_id": "originseal",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/originseal",
+        "html_url": "https://github.com/Verifrax/originseal"
+      },
+      {
+        "id": "proof",
+        "repo_id": "proof",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": "https://github.com/Verifrax/proof",
+        "html_url": "https://github.com/Verifrax/proof"
+      },
+      {
+        "id": "SIGILLARIUM",
+        "repo_id": "SIGILLARIUM",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": "https://github.com/Verifrax/SIGILLARIUM",
+        "html_url": "https://github.com/Verifrax/SIGILLARIUM"
+      },
+      {
+        "id": "SYNTAGMARIUM",
+        "repo_id": "SYNTAGMARIUM",
+        "type": "Repository",
+        "primary_role": "law_source",
+        "default_branch": "midiakiasat/syntagmarium-constitutional-foundation",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/SYNTAGMARIUM"
+      },
+      {
+        "id": "validexor",
+        "repo_id": "validexor",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "MIT",
+        "homepage": "https://github.com/Verifrax/validexor",
+        "html_url": "https://github.com/Verifrax/validexor"
+      },
+      {
+        "id": "VERIFRAX",
+        "repo_id": "VERIFRAX",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": "https://github.com/Verifrax/VERIFRAX",
+        "html_url": "https://github.com/Verifrax/VERIFRAX"
+      },
+      {
+        "id": "VERIFRAX-API",
+        "repo_id": "VERIFRAX-API",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": null,
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/VERIFRAX-API"
+      },
+      {
+        "id": "VERIFRAX-DOCS",
+        "repo_id": "VERIFRAX-DOCS",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://verifrax.github.io/VERIFRAX-DOCS/",
+        "html_url": "https://github.com/Verifrax/VERIFRAX-DOCS"
+      },
+      {
+        "id": "verifrax-marketplace-smoke",
+        "repo_id": "verifrax-marketplace-smoke",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/verifrax-marketplace-smoke",
+        "html_url": "https://github.com/Verifrax/verifrax-marketplace-smoke"
+      },
+      {
+        "id": "VERIFRAX-PROFILES",
+        "repo_id": "VERIFRAX-PROFILES",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/VERIFRAX-PROFILES",
+        "html_url": "https://github.com/Verifrax/VERIFRAX-PROFILES"
+      },
+      {
+        "id": "VERIFRAX-SAMPLES",
+        "repo_id": "VERIFRAX-SAMPLES",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/VERIFRAX-SAMPLES",
+        "html_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES"
+      },
+      {
+        "id": "VERIFRAX-SPEC",
+        "repo_id": "VERIFRAX-SPEC",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://github.com/Verifrax/VERIFRAX-SPEC",
+        "html_url": "https://github.com/Verifrax/VERIFRAX-SPEC"
+      },
+      {
+        "id": "VERIFRAX-STATUS",
+        "repo_id": "VERIFRAX-STATUS",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": null,
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/VERIFRAX-STATUS"
+      },
+      {
+        "id": "VERIFRAX-SURFACE",
+        "repo_id": "VERIFRAX-SURFACE",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "NOASSERTION",
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/VERIFRAX-SURFACE"
+      },
+      {
+        "id": "VERIFRAX-verify",
+        "repo_id": "VERIFRAX-verify",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": "Apache-2.0",
+        "homepage": "https://verifrax.net/verify",
+        "html_url": "https://github.com/Verifrax/VERIFRAX-verify"
+      },
+      {
+        "id": "VERIFRAX-WWW",
+        "repo_id": "VERIFRAX-WWW",
+        "type": "Repository",
+        "primary_role": "observed_repo",
+        "default_branch": "main",
+        "visibility": "public",
+        "archived": false,
+        "disabled": false,
+        "license": null,
+        "homepage": null,
+        "html_url": "https://github.com/Verifrax/VERIFRAX-WWW"
+      },
+      {
+        "id": "host:api.verifrax.net",
+        "type": "Host",
+        "fqdn": "api.verifrax.net",
+        "role": "api",
+        "owning_repo": "VERIFRAX-API",
+        "host_class": "execution_api",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:apply.verifrax.net",
+        "type": "Host",
+        "fqdn": "apply.verifrax.net",
+        "role": "intake",
+        "owning_repo": "apply",
+        "host_class": "intake_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:auctoriseal.verifrax.net",
+        "type": "Host",
+        "fqdn": "auctoriseal.verifrax.net",
+        "role": "authority",
+        "owning_repo": "AUCTORISEAL",
+        "host_class": "authority_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:cicullis.verifrax.net",
+        "type": "Host",
+        "fqdn": "cicullis.verifrax.net",
+        "role": "enforcement",
+        "owning_repo": "cicullis",
+        "host_class": "enforcement_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:corpiform.verifrax.net",
+        "type": "Host",
+        "fqdn": "corpiform.verifrax.net",
+        "role": "runtime_receipt",
+        "owning_repo": "CORPIFORM",
+        "host_class": "runtime_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:docs.verifrax.net",
+        "type": "Host",
+        "fqdn": "docs.verifrax.net",
+        "role": "docs",
+        "owning_repo": "VERIFRAX-DOCS",
+        "host_class": "docs_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:proof.verifrax.net",
+        "type": "Host",
+        "fqdn": "proof.verifrax.net",
+        "role": "proof_publication",
+        "owning_repo": "proof",
+        "host_class": "proof_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:sigillarium.verifrax.net",
+        "type": "Host",
+        "fqdn": "sigillarium.verifrax.net",
+        "role": "seal_publication",
+        "owning_repo": "SIGILLARIUM",
+        "host_class": "seal_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:status.verifrax.net",
+        "type": "Host",
+        "fqdn": "status.verifrax.net",
+        "role": "status",
+        "owning_repo": "VERIFRAX-STATUS",
+        "host_class": "status_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:verify.verifrax.net",
+        "type": "Host",
+        "fqdn": "verify.verifrax.net",
+        "role": "verification",
+        "owning_repo": "VERIFRAX-verify",
+        "host_class": "verification_surface",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "host:www.verifrax.net",
+        "type": "Host",
+        "fqdn": "www.verifrax.net",
+        "role": "website",
+        "owning_repo": "VERIFRAX-WWW",
+        "host_class": "commercial_public",
+        "status": "OBSERVED_OWNER_REPO_PRESENT"
+      },
+      {
+        "id": "pkg:@verifrax/archicustos",
+        "type": "Package",
+        "package_id": "@verifrax/archicustos",
+        "source_repo": "archicustos",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/attestorium",
+        "type": "Package",
+        "package_id": "@verifrax/attestorium",
+        "source_repo": "attestorium",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/auctoriseal",
+        "type": "Package",
+        "package_id": "@verifrax/auctoriseal",
+        "source_repo": "AUCTORISEAL",
+        "version": "0.1.2",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/corpiform",
+        "type": "Package",
+        "package_id": "@verifrax/corpiform",
+        "source_repo": "CORPIFORM",
+        "version": "0.1.4",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/limenward",
+        "type": "Package",
+        "package_id": "@verifrax/limenward",
+        "source_repo": "limenward",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:mailsieve",
+        "type": "Package",
+        "package_id": "mailsieve",
+        "source_repo": "MAILSIEVE",
+        "version": "1.0.0",
+        "private": true,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/originseal",
+        "type": "Package",
+        "package_id": "@verifrax/originseal",
+        "source_repo": "originseal",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@sigillarium/core",
+        "type": "Package",
+        "package_id": "@sigillarium/core",
+        "source_repo": "SIGILLARIUM",
+        "version": "1.0.0",
+        "private": false,
+        "manifest_path": "packages/core/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:sigillarium",
+        "type": "Package",
+        "package_id": "sigillarium",
+        "source_repo": "SIGILLARIUM",
+        "version": "0.0.0",
+        "private": true,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:sigillarium",
+        "type": "Package",
+        "package_id": "sigillarium",
+        "source_repo": "SIGILLARIUM",
+        "version": "0.0.0",
+        "private": false,
+        "manifest_path": "packages/cli/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/validexor",
+        "type": "Package",
+        "package_id": "@verifrax/validexor",
+        "source_repo": "validexor",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/root",
+        "type": "Package",
+        "package_id": "@verifrax/root",
+        "source_repo": "VERIFRAX",
+        "version": null,
+        "private": true,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/root",
+        "type": "Package",
+        "package_id": "@verifrax/root",
+        "source_repo": "VERIFRAX",
+        "version": null,
+        "private": true,
+        "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-node-verifier",
+        "type": "Package",
+        "package_id": "verifrax-node-verifier",
+        "source_repo": "VERIFRAX",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "release-history/v1/verifier/node/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-node-verifier",
+        "type": "Package",
+        "package_id": "verifrax-node-verifier",
+        "source_repo": "VERIFRAX",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "verifier/node/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-node-verifier",
+        "type": "Package",
+        "package_id": "verifrax-node-verifier",
+        "source_repo": "VERIFRAX",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/release-history/v1/verifier/node/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-node-verifier",
+        "type": "Package",
+        "package_id": "verifrax-node-verifier",
+        "source_repo": "VERIFRAX",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/verifier/node/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-reference-verifier",
+        "type": "Package",
+        "package_id": "verifrax-reference-verifier",
+        "source_repo": "VERIFRAX",
+        "version": "2.4.0",
+        "private": false,
+        "manifest_path": "archive/verifrax-reference-verifier/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-reference-verifier",
+        "type": "Package",
+        "package_id": "verifrax-reference-verifier",
+        "source_repo": "VERIFRAX",
+        "version": "2.4.0",
+        "private": false,
+        "manifest_path": "verifrax-freeze/v2.8.0/source/VERIFRAX/archive/verifrax-reference-verifier/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:@verifrax/root",
+        "type": "Package",
+        "package_id": "@verifrax/root",
+        "source_repo": "VERIFRAX-API",
+        "version": null,
+        "private": true,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-node-verifier",
+        "type": "Package",
+        "package_id": "verifrax-node-verifier",
+        "source_repo": "VERIFRAX-API",
+        "version": "0.1.0",
+        "private": false,
+        "manifest_path": "release-history/v1/verifier/node/package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "pkg:verifrax-verify",
+        "type": "Package",
+        "package_id": "verifrax-verify",
+        "source_repo": "VERIFRAX-verify",
+        "version": "0.1.2",
+        "private": true,
+        "manifest_path": "package.json",
+        "classification": "observed_package"
+      },
+      {
+        "id": "evidence:current:graph.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:graph.json",
+        "path": "current/graph.json",
+        "media_type": "application/json",
+        "role": "current_graph",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "3acf36da21957fdc4e116159582ae0b2cd472447530df4c47e7c0a0f25ca6bd0",
+        "bytes": 26017,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:epoch.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:epoch.json",
+        "path": "current/epoch.json",
+        "media_type": "application/json",
+        "role": "current_epoch",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "5007b0e0560a1f27b518732bd56ee60b6924fe71fffe7f5352571c1521b5775f",
+        "bytes": 606,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:trust-summary.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:trust-summary.json",
+        "path": "current/trust-summary.json",
+        "media_type": "application/json",
+        "role": "trust_summary",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "ef671bc27ec1d8096fa00ad1ba23d10020acda18b15b46006460906bb39b501b",
+        "bytes": 690,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:contradictions.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:contradictions.json",
+        "path": "current/contradictions.json",
+        "media_type": "application/json",
+        "role": "contradictions",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "fb20c3f5877d7ca0e4d3742acef30dd38a1ac746060d14e3f9ee52cd1a2bfd19",
+        "bytes": 113,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:repairs.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:repairs.json",
+        "path": "current/repairs.json",
+        "media_type": "application/json",
+        "role": "repairs",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "bf645dfb8d264a5db5cb54091f33921ebf5600b396cbeeede795d1415b9e6e5a",
+        "bytes": 111,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:quarantine.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:quarantine.json",
+        "path": "current/quarantine.json",
+        "media_type": "application/json",
+        "role": "quarantine",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "c857a2a9d47149d171b12bc8868cb044bd470a87dfa577b4d8177438c622c926",
+        "bytes": 105,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:proof-bundle.json",
+        "type": "EvidenceSurface",
+        "surface_id": "current:proof-bundle.json",
+        "path": "current/proof-bundle.json",
+        "media_type": "application/json",
+        "role": "proof_bundle",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "92b4cd8e612059579c7d1e0a193799a6a735faeec7ac72d65e73dc206dd4b482",
+        "bytes": 389,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "evidence:current:digest.txt",
+        "type": "EvidenceSurface",
+        "surface_id": "current:digest.txt",
+        "path": "current/digest.txt",
+        "media_type": "text/plain",
+        "role": "digest_manifest",
+        "owning_repo": "ORBISTIUM",
+        "sha256": "22a37e0565b9adb53c596cd62304506de875c560edc489743cdfc4aaa08bca19",
+        "bytes": 626,
+        "status": "ACTIVE_CURRENT_TRUTH"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-audit-report.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-audit-report.json",
+        "path": "reports/generated/sovereign-audit-report.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "cd6a17eeaa2fdbb70ed9c8773115e5e4d26108ba9f12f06cd4aaf452615b244a",
+        "bytes": 6274,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-check-report.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-check-report.json",
+        "path": "reports/generated/sovereign-check-report.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "01ca2cea5236f440d4d23796d6bf78bd789a50f5d03912f74eb38f267453f1df",
+        "bytes": 6404,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-epoch-candidate.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-epoch-candidate.json",
+        "path": "reports/generated/sovereign-epoch-candidate.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "9ab2e476ff4429c93a99f137704677d828c99ec05fa7353b84b3b93f4a4c6e42",
+        "bytes": 12186,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-inventory-report.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-inventory-report.json",
+        "path": "reports/generated/sovereign-inventory-report.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "06b552288cd72de5daad2a143652ee9ba1c1de9e868d6080808e4499753a3338",
+        "bytes": 11270,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-mechanical-repair-application.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-mechanical-repair-application.json",
+        "path": "reports/generated/sovereign-mechanical-repair-application.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "52b342ba314e21bee2f7e5a3ad9da202e47af8e4a1d5b92b19d28b616220bff6",
+        "bytes": 1085,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-projection-report.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-projection-report.json",
+        "path": "reports/generated/sovereign-projection-report.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "8832d2bcc8b44c874fbb2a9d14c8d5e6d91da98c76ea11291a73750e534e1c75",
+        "bytes": 1533,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-quarantine-report.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-quarantine-report.json",
+        "path": "reports/generated/sovereign-quarantine-report.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "10c1c720973a1e735638e1c1e9d40abb8edfe33f628f0ff2802cc82def8d3195",
+        "bytes": 1068,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-reconcile-report.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-reconcile-report.json",
+        "path": "reports/generated/sovereign-reconcile-report.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "a7c159d81db8f896e701d18ae98e9a716ddb5ada6335d65f4ca0049d22963973",
+        "bytes": 12239,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "artifact:reports:generated:sovereign-repair-plan.json",
+        "type": "Artifact",
+        "artifact_id": "reports:generated:sovereign-repair-plan.json",
+        "path": "reports/generated/sovereign-repair-plan.json",
+        "media_type": "application/json",
+        "role": "runtime_generated_report",
+        "owning_repo": "CONSONORIUM",
+        "sha256": "8ebd84333a34f3c17a67adb21708c2ba349bef7a4603500360aa1fe58f032c12",
+        "bytes": 1070,
+        "status": "MATERIALIZED_RUNTIME_ARTIFACT"
+      },
+      {
+        "id": "badge:.github:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": ".github:determinism-check.yml",
+        "repo_id": ".github",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/.github/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/.github/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:.github:determinism.yml",
+        "type": "Badge",
+        "badge_id": ".github:determinism.yml",
+        "repo_id": ".github",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/.github/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/.github/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:.github:identity.yml",
+        "type": "Badge",
+        "badge_id": ".github:identity.yml",
+        "repo_id": ".github",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/.github/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/.github/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:apply:pages.yml",
+        "type": "Badge",
+        "badge_id": "apply:pages.yml",
+        "repo_id": "apply",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/apply/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/apply/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:apply:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "apply:surface-validate.yml",
+        "repo_id": "apply",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/apply/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/apply/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:archicustos:determinism.yml",
+        "type": "Badge",
+        "badge_id": "archicustos:determinism.yml",
+        "repo_id": "archicustos",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/archicustos/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/archicustos/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:archicustos:identity.yml",
+        "type": "Badge",
+        "badge_id": "archicustos:identity.yml",
+        "repo_id": "archicustos",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/archicustos/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/archicustos/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:ARCHITECTURE:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "ARCHITECTURE:determinism-check.yml",
+        "repo_id": "ARCHITECTURE",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/ARCHITECTURE/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/ARCHITECTURE/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:ARCHITECTURE:identity.yml",
+        "type": "Badge",
+        "badge_id": "ARCHITECTURE:identity.yml",
+        "repo_id": "ARCHITECTURE",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/ARCHITECTURE/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/ARCHITECTURE/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:attestorium:determinism.yml",
+        "type": "Badge",
+        "badge_id": "attestorium:determinism.yml",
+        "repo_id": "attestorium",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/attestorium/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/attestorium/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:attestorium:identity.yml",
+        "type": "Badge",
+        "badge_id": "attestorium:identity.yml",
+        "repo_id": "attestorium",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/attestorium/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/attestorium/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:AUCTORISEAL:auctoriseal-ci.yml",
+        "type": "Badge",
+        "badge_id": "AUCTORISEAL:auctoriseal-ci.yml",
+        "repo_id": "AUCTORISEAL",
+        "workflow_file": ".github/workflows/auctoriseal-ci.yml",
+        "badge_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/auctoriseal-ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/auctoriseal-ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:AUCTORISEAL:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "AUCTORISEAL:determinism-check.yml",
+        "repo_id": "AUCTORISEAL",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:AUCTORISEAL:identity.yml",
+        "type": "Badge",
+        "badge_id": "AUCTORISEAL:identity.yml",
+        "repo_id": "AUCTORISEAL",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:AUCTORISEAL:pages-deploy.yml",
+        "type": "Badge",
+        "badge_id": "AUCTORISEAL:pages-deploy.yml",
+        "repo_id": "AUCTORISEAL",
+        "workflow_file": ".github/workflows/pages-deploy.yml",
+        "badge_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/pages-deploy.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/pages-deploy.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:AUCTORISEAL:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "AUCTORISEAL:surface-validate.yml",
+        "repo_id": "AUCTORISEAL",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/AUCTORISEAL/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:attest.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:attest.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/attest.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/attest.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/attest.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:attestor.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:attestor.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/attestor.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/attestor.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/attestor.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:codeql.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:codeql.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/codeql.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/codeql.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/codeql.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:determinism.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:determinism.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:enforce.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:enforce.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/enforce.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/enforce.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/enforce.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:example.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:example.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/example.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/example.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/example.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:gates.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:gates.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/gates.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/gates.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/gates.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:identity.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:identity.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:integrity.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:integrity.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/integrity.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/integrity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/integrity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:pages.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:pages.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:scorecard.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:scorecard.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/scorecard.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/scorecard.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/scorecard.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:cicullis:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "cicullis:surface-validate.yml",
+        "repo_id": "cicullis",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/cicullis/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/cicullis/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CONSONORIUM:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "CONSONORIUM:determinism-check.yml",
+        "repo_id": "CONSONORIUM",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CONSONORIUM:identity.yml",
+        "type": "Badge",
+        "badge_id": "CONSONORIUM:identity.yml",
+        "repo_id": "CONSONORIUM",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CONSONORIUM/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CORPIFORM:ci.yml",
+        "type": "Badge",
+        "badge_id": "CORPIFORM:ci.yml",
+        "repo_id": "CORPIFORM",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CORPIFORM:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "CORPIFORM:determinism-check.yml",
+        "repo_id": "CORPIFORM",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CORPIFORM:identity.yml",
+        "type": "Badge",
+        "badge_id": "CORPIFORM:identity.yml",
+        "repo_id": "CORPIFORM",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CORPIFORM:pages.yml",
+        "type": "Badge",
+        "badge_id": "CORPIFORM:pages.yml",
+        "repo_id": "CORPIFORM",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:CORPIFORM:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "CORPIFORM:surface-validate.yml",
+        "repo_id": "CORPIFORM",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/CORPIFORM/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:guillotine:determinism.yml",
+        "type": "Badge",
+        "badge_id": "guillotine:determinism.yml",
+        "repo_id": "guillotine",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/guillotine/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/guillotine/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:guillotine:identity.yml",
+        "type": "Badge",
+        "badge_id": "guillotine:identity.yml",
+        "repo_id": "guillotine",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/guillotine/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/guillotine/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:irrevocull:determinism.yml",
+        "type": "Badge",
+        "badge_id": "irrevocull:determinism.yml",
+        "repo_id": "irrevocull",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/irrevocull/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/irrevocull/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:irrevocull:identity.yml",
+        "type": "Badge",
+        "badge_id": "irrevocull:identity.yml",
+        "repo_id": "irrevocull",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/irrevocull/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/irrevocull/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:kairoclasp:determinism.yml",
+        "type": "Badge",
+        "badge_id": "kairoclasp:determinism.yml",
+        "repo_id": "kairoclasp",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/kairoclasp/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/kairoclasp/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:kairoclasp:identity.yml",
+        "type": "Badge",
+        "badge_id": "kairoclasp:identity.yml",
+        "repo_id": "kairoclasp",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/kairoclasp/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/kairoclasp/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:limenward:determinism.yml",
+        "type": "Badge",
+        "badge_id": "limenward:determinism.yml",
+        "repo_id": "limenward",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/limenward/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/limenward/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:limenward:identity.yml",
+        "type": "Badge",
+        "badge_id": "limenward:identity.yml",
+        "repo_id": "limenward",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/limenward/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/limenward/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:MAILSIEVE:determinism.yml",
+        "type": "Badge",
+        "badge_id": "MAILSIEVE:determinism.yml",
+        "repo_id": "MAILSIEVE",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/MAILSIEVE/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/MAILSIEVE/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:MAILSIEVE:identity.yml",
+        "type": "Badge",
+        "badge_id": "MAILSIEVE:identity.yml",
+        "repo_id": "MAILSIEVE",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/MAILSIEVE/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/MAILSIEVE/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:ORBISTIUM:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "ORBISTIUM:determinism-check.yml",
+        "repo_id": "ORBISTIUM",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:ORBISTIUM:identity.yml",
+        "type": "Badge",
+        "badge_id": "ORBISTIUM:identity.yml",
+        "repo_id": "ORBISTIUM",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/ORBISTIUM/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:originseal:determinism.yml",
+        "type": "Badge",
+        "badge_id": "originseal:determinism.yml",
+        "repo_id": "originseal",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/originseal/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/originseal/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:originseal:identity.yml",
+        "type": "Badge",
+        "badge_id": "originseal:identity.yml",
+        "repo_id": "originseal",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/originseal/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/originseal/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:proof:pages.yml",
+        "type": "Badge",
+        "badge_id": "proof:pages.yml",
+        "repo_id": "proof",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/proof/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/proof/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:proof:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "proof:surface-validate.yml",
+        "repo_id": "proof",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/proof/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/proof/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SIGILLARIUM:core-cross-platform-determinism.yml",
+        "type": "Badge",
+        "badge_id": "SIGILLARIUM:core-cross-platform-determinism.yml",
+        "repo_id": "SIGILLARIUM",
+        "workflow_file": ".github/workflows/core-cross-platform-determinism.yml",
+        "badge_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/core-cross-platform-determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/core-cross-platform-determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SIGILLARIUM:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "SIGILLARIUM:determinism-check.yml",
+        "repo_id": "SIGILLARIUM",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SIGILLARIUM:identity.yml",
+        "type": "Badge",
+        "badge_id": "SIGILLARIUM:identity.yml",
+        "repo_id": "SIGILLARIUM",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SIGILLARIUM:pages.yml",
+        "type": "Badge",
+        "badge_id": "SIGILLARIUM:pages.yml",
+        "repo_id": "SIGILLARIUM",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SIGILLARIUM:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "SIGILLARIUM:surface-validate.yml",
+        "repo_id": "SIGILLARIUM",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SIGILLARIUM/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SYNTAGMARIUM:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "SYNTAGMARIUM:determinism-check.yml",
+        "repo_id": "SYNTAGMARIUM",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:SYNTAGMARIUM:identity.yml",
+        "type": "Badge",
+        "badge_id": "SYNTAGMARIUM:identity.yml",
+        "repo_id": "SYNTAGMARIUM",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/SYNTAGMARIUM/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:validexor:determinism.yml",
+        "type": "Badge",
+        "badge_id": "validexor:determinism.yml",
+        "repo_id": "validexor",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/validexor/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/validexor/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:validexor:identity.yml",
+        "type": "Badge",
+        "badge_id": "validexor:identity.yml",
+        "repo_id": "validexor",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/validexor/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/validexor/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:action-selftest.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:action-selftest.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/action-selftest.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/action-selftest.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/action-selftest.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:attestor.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:attestor.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/attestor.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/attestor.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/attestor.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:authority-boundary.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:authority-boundary.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/authority-boundary.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/authority-boundary.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/authority-boundary.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:cflite.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:cflite.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/cflite.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/cflite.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/cflite.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:codeql.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:codeql.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/codeql.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/codeql.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/codeql.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:conformance-delivery-v1.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:conformance-delivery-v1.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/conformance-delivery-v1.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/conformance-delivery-v1.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/conformance-delivery-v1.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:deploy-spec-from-tag.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:deploy-spec-from-tag.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/deploy-spec-from-tag.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/deploy-spec-from-tag.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/deploy-spec-from-tag.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:determinism.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:determinism.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/determinism.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/determinism.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/determinism.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:deterministic-verification.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:deterministic-verification.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/deterministic-verification.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/deterministic-verification.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/deterministic-verification.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:enforce.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:enforce.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/enforce.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/enforce.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/enforce.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:example.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:example.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/example.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/example.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/example.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:finality-guard.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:finality-guard.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/finality-guard.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/finality-guard.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/finality-guard.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:freeze-guard.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:freeze-guard.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/freeze-guard.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-guard.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-guard.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:freeze-integrity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:freeze-integrity.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/freeze-integrity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-integrity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-integrity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:freeze-protection.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:freeze-protection.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/freeze-protection.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-protection.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-protection.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:freeze-surface-guard.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:freeze-surface-guard.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/freeze-surface-guard.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-surface-guard.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/freeze-surface-guard.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:gates.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:gates.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/gates.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/gates.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/gates.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:governance.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:governance.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/governance.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/governance.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/governance.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:identity.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:integrity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:integrity.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/integrity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/integrity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/integrity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:legacy-required-statuses.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:legacy-required-statuses.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/legacy-required-statuses.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/legacy-required-statuses.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/legacy-required-statuses.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:publish-spec-repo.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:publish-spec-repo.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/publish-spec-repo.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/publish-spec-repo.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/publish-spec-repo.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:release-tag.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:release-tag.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/release-tag.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/release-tag.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/release-tag.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:release.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:release.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/release.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/release.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/release.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:reproducibility-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:reproducibility-check.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/reproducibility-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/reproducibility-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/reproducibility-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:required-status-publication.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:required-status-publication.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/required-status-publication.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/required-status-publication.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/required-status-publication.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:scorecard.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:scorecard.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/scorecard.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/scorecard.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/scorecard.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:spec-bundle.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:spec-bundle.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/spec-bundle.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/spec-bundle.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/spec-bundle.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:spec-immutability.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:spec-immutability.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/spec-immutability.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/spec-immutability.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/spec-immutability.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:tag-only-enforcement.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:tag-only-enforcement.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/tag-only-enforcement.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/tag-only-enforcement.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/tag-only-enforcement.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:truth-index-integrity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:truth-index-integrity.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/truth-index-integrity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/truth-index-integrity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/truth-index-integrity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:ui-contract.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:ui-contract.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/ui-contract.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/ui-contract.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/ui-contract.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:verifier-output-contract.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:verifier-output-contract.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/verifier-output-contract.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/verifier-output-contract.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/verifier-output-contract.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:verifier-reproducibility.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:verifier-reproducibility.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/verifier-reproducibility.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/verifier-reproducibility.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/verifier-reproducibility.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX:verifrax-finality.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX:verifrax-finality.yml",
+        "repo_id": "VERIFRAX",
+        "workflow_file": ".github/workflows/verifrax-finality.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/verifrax-finality.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX/actions/workflows/verifrax-finality.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-API:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-API:surface-validate.yml",
+        "repo_id": "VERIFRAX-API",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-API/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-API/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-DOCS:ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-DOCS:ci.yml",
+        "repo_id": "VERIFRAX-DOCS",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-DOCS:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-DOCS:determinism-check.yml",
+        "repo_id": "VERIFRAX-DOCS",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-DOCS:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-DOCS:identity.yml",
+        "repo_id": "VERIFRAX-DOCS",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-DOCS:pages.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-DOCS:pages.yml",
+        "repo_id": "VERIFRAX-DOCS",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-DOCS:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-DOCS:surface-validate.yml",
+        "repo_id": "VERIFRAX-DOCS",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-DOCS/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:verifrax-marketplace-smoke:ci.yml",
+        "type": "Badge",
+        "badge_id": "verifrax-marketplace-smoke:ci.yml",
+        "repo_id": "verifrax-marketplace-smoke",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:verifrax-marketplace-smoke:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "verifrax-marketplace-smoke:determinism-check.yml",
+        "repo_id": "verifrax-marketplace-smoke",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:verifrax-marketplace-smoke:dispatch-probe.yml",
+        "type": "Badge",
+        "badge_id": "verifrax-marketplace-smoke:dispatch-probe.yml",
+        "repo_id": "verifrax-marketplace-smoke",
+        "workflow_file": ".github/workflows/dispatch-probe.yml",
+        "badge_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/dispatch-probe.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/dispatch-probe.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:verifrax-marketplace-smoke:identity.yml",
+        "type": "Badge",
+        "badge_id": "verifrax-marketplace-smoke:identity.yml",
+        "repo_id": "verifrax-marketplace-smoke",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:verifrax-marketplace-smoke:marketplace-smoke.yml",
+        "type": "Badge",
+        "badge_id": "verifrax-marketplace-smoke:marketplace-smoke.yml",
+        "repo_id": "verifrax-marketplace-smoke",
+        "workflow_file": ".github/workflows/marketplace-smoke.yml",
+        "badge_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/marketplace-smoke.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/marketplace-smoke.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:verifrax-marketplace-smoke:smoke.yml",
+        "type": "Badge",
+        "badge_id": "verifrax-marketplace-smoke:smoke.yml",
+        "repo_id": "verifrax-marketplace-smoke",
+        "workflow_file": ".github/workflows/smoke.yml",
+        "badge_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/smoke.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/verifrax-marketplace-smoke/actions/workflows/smoke.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-PROFILES:ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-PROFILES:ci.yml",
+        "repo_id": "VERIFRAX-PROFILES",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-PROFILES:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-PROFILES:determinism-check.yml",
+        "repo_id": "VERIFRAX-PROFILES",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-PROFILES:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-PROFILES:identity.yml",
+        "repo_id": "VERIFRAX-PROFILES",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-PROFILES:profile-guards.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-PROFILES:profile-guards.yml",
+        "repo_id": "VERIFRAX-PROFILES",
+        "workflow_file": ".github/workflows/profile-guards.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/profile-guards.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-PROFILES/actions/workflows/profile-guards.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SAMPLES:ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SAMPLES:ci.yml",
+        "repo_id": "VERIFRAX-SAMPLES",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SAMPLES:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SAMPLES:determinism-check.yml",
+        "repo_id": "VERIFRAX-SAMPLES",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SAMPLES:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SAMPLES:identity.yml",
+        "repo_id": "VERIFRAX-SAMPLES",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SAMPLES:samples-ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SAMPLES:samples-ci.yml",
+        "repo_id": "VERIFRAX-SAMPLES",
+        "workflow_file": ".github/workflows/samples-ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/samples-ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SAMPLES/actions/workflows/samples-ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SPEC:ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SPEC:ci.yml",
+        "repo_id": "VERIFRAX-SPEC",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SPEC:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SPEC:determinism-check.yml",
+        "repo_id": "VERIFRAX-SPEC",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SPEC:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SPEC:identity.yml",
+        "repo_id": "VERIFRAX-SPEC",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SPEC:spec-guards.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SPEC:spec-guards.yml",
+        "repo_id": "VERIFRAX-SPEC",
+        "workflow_file": ".github/workflows/spec-guards.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/spec-guards.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/spec-guards.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SPEC:verify-spec.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SPEC:verify-spec.yml",
+        "repo_id": "VERIFRAX-SPEC",
+        "workflow_file": ".github/workflows/verify-spec.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/verify-spec.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SPEC/actions/workflows/verify-spec.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-STATUS:pages.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-STATUS:pages.yml",
+        "repo_id": "VERIFRAX-STATUS",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-STATUS/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-STATUS/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-STATUS:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-STATUS:surface-validate.yml",
+        "repo_id": "VERIFRAX-STATUS",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-STATUS/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-STATUS/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SURFACE:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SURFACE:determinism-check.yml",
+        "repo_id": "VERIFRAX-SURFACE",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SURFACE/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SURFACE/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SURFACE:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SURFACE:identity.yml",
+        "repo_id": "VERIFRAX-SURFACE",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SURFACE/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SURFACE/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-SURFACE:validate-host.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-SURFACE:validate-host.yml",
+        "repo_id": "VERIFRAX-SURFACE",
+        "workflow_file": ".github/workflows/validate-host.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-SURFACE/actions/workflows/validate-host.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-SURFACE/actions/workflows/validate-host.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:ci.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:determinism-check.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:determinism-check.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/determinism-check.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/determinism-check.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/determinism-check.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:identity.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:identity.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/identity.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/identity.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/identity.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:pages-serve-guard.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:pages-serve-guard.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/pages-serve-guard.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/pages-serve-guard.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/pages-serve-guard.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:pages.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:pages.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:surface-validate.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-verify:verify-ci.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-verify:verify-ci.yml",
+        "repo_id": "VERIFRAX-verify",
+        "workflow_file": ".github/workflows/verify-ci.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/verify-ci.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-verify/actions/workflows/verify-ci.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-WWW:pages.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-WWW:pages.yml",
+        "repo_id": "VERIFRAX-WWW",
+        "workflow_file": ".github/workflows/pages.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-WWW/actions/workflows/pages.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-WWW/actions/workflows/pages.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
+      },
+      {
+        "id": "badge:VERIFRAX-WWW:surface-validate.yml",
+        "type": "Badge",
+        "badge_id": "VERIFRAX-WWW:surface-validate.yml",
+        "repo_id": "VERIFRAX-WWW",
+        "workflow_file": ".github/workflows/surface-validate.yml",
+        "badge_url": "https://github.com/Verifrax/VERIFRAX-WWW/actions/workflows/surface-validate.yml/badge.svg?branch=main",
+        "target_url": "https://github.com/Verifrax/VERIFRAX-WWW/actions/workflows/surface-validate.yml",
+        "default_branch": "main",
+        "status": "OBSERVED_WORKFLOW_BADGE_SURFACE"
       }
     ],
     "edges": [
@@ -371,6 +2836,926 @@
         "from": "CONSONORIUM",
         "to": "ORBISTIUM",
         "type": "runtime_to_state"
+      },
+      {
+        "from": "VERIFRAX-API",
+        "to": "host:api.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "apply",
+        "to": "host:apply.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "host:auctoriseal.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "cicullis",
+        "to": "host:cicullis.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "host:corpiform.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "VERIFRAX-DOCS",
+        "to": "host:docs.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "proof",
+        "to": "host:proof.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "host:sigillarium.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "VERIFRAX-STATUS",
+        "to": "host:status.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "host:verify.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "VERIFRAX-WWW",
+        "to": "host:www.verifrax.net",
+        "type": "owns_host"
+      },
+      {
+        "from": "archicustos",
+        "to": "pkg:@verifrax/archicustos",
+        "type": "publishes_package"
+      },
+      {
+        "from": "attestorium",
+        "to": "pkg:@verifrax/attestorium",
+        "type": "publishes_package"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "pkg:@verifrax/auctoriseal",
+        "type": "publishes_package"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "pkg:@verifrax/corpiform",
+        "type": "publishes_package"
+      },
+      {
+        "from": "limenward",
+        "to": "pkg:@verifrax/limenward",
+        "type": "publishes_package"
+      },
+      {
+        "from": "MAILSIEVE",
+        "to": "pkg:mailsieve",
+        "type": "publishes_package"
+      },
+      {
+        "from": "originseal",
+        "to": "pkg:@verifrax/originseal",
+        "type": "publishes_package"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "pkg:@sigillarium/core",
+        "type": "publishes_package"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "pkg:sigillarium",
+        "type": "publishes_package"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "pkg:sigillarium",
+        "type": "publishes_package"
+      },
+      {
+        "from": "validexor",
+        "to": "pkg:@verifrax/validexor",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:@verifrax/root",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:@verifrax/root",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:verifrax-node-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:verifrax-node-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:verifrax-node-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:verifrax-node-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:verifrax-reference-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "pkg:verifrax-reference-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX-API",
+        "to": "pkg:@verifrax/root",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX-API",
+        "to": "pkg:verifrax-node-verifier",
+        "type": "publishes_package"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "pkg:verifrax-verify",
+        "type": "publishes_package"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:graph.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:epoch.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:trust-summary.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:contradictions.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:repairs.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:quarantine.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:proof-bundle.json",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "evidence:current:digest.txt",
+        "type": "publishes_evidence_surface"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-audit-report.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-check-report.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-epoch-candidate.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-inventory-report.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-mechanical-repair-application.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-projection-report.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-quarantine-report.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-reconcile-report.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "artifact:reports:generated:sovereign-repair-plan.json",
+        "type": "publishes_artifact"
+      },
+      {
+        "from": ".github",
+        "to": "badge:.github:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": ".github",
+        "to": "badge:.github:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": ".github",
+        "to": "badge:.github:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "apply",
+        "to": "badge:apply:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "apply",
+        "to": "badge:apply:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "archicustos",
+        "to": "badge:archicustos:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "archicustos",
+        "to": "badge:archicustos:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "ARCHITECTURE",
+        "to": "badge:ARCHITECTURE:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "ARCHITECTURE",
+        "to": "badge:ARCHITECTURE:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "attestorium",
+        "to": "badge:attestorium:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "attestorium",
+        "to": "badge:attestorium:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "badge:AUCTORISEAL:auctoriseal-ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "badge:AUCTORISEAL:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "badge:AUCTORISEAL:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "badge:AUCTORISEAL:pages-deploy.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "AUCTORISEAL",
+        "to": "badge:AUCTORISEAL:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:attest.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:attestor.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:codeql.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:enforce.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:example.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:gates.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:integrity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:scorecard.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "cicullis",
+        "to": "badge:cicullis:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "badge:CONSONORIUM:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CONSONORIUM",
+        "to": "badge:CONSONORIUM:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "badge:CORPIFORM:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "badge:CORPIFORM:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "badge:CORPIFORM:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "badge:CORPIFORM:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "CORPIFORM",
+        "to": "badge:CORPIFORM:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "guillotine",
+        "to": "badge:guillotine:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "guillotine",
+        "to": "badge:guillotine:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "irrevocull",
+        "to": "badge:irrevocull:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "irrevocull",
+        "to": "badge:irrevocull:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "kairoclasp",
+        "to": "badge:kairoclasp:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "kairoclasp",
+        "to": "badge:kairoclasp:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "limenward",
+        "to": "badge:limenward:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "limenward",
+        "to": "badge:limenward:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "MAILSIEVE",
+        "to": "badge:MAILSIEVE:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "MAILSIEVE",
+        "to": "badge:MAILSIEVE:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "badge:ORBISTIUM:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "ORBISTIUM",
+        "to": "badge:ORBISTIUM:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "originseal",
+        "to": "badge:originseal:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "originseal",
+        "to": "badge:originseal:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "proof",
+        "to": "badge:proof:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "proof",
+        "to": "badge:proof:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "badge:SIGILLARIUM:core-cross-platform-determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "badge:SIGILLARIUM:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "badge:SIGILLARIUM:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "badge:SIGILLARIUM:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SIGILLARIUM",
+        "to": "badge:SIGILLARIUM:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SYNTAGMARIUM",
+        "to": "badge:SYNTAGMARIUM:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "SYNTAGMARIUM",
+        "to": "badge:SYNTAGMARIUM:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "validexor",
+        "to": "badge:validexor:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "validexor",
+        "to": "badge:validexor:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:action-selftest.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:attestor.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:authority-boundary.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:cflite.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:codeql.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:conformance-delivery-v1.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:deploy-spec-from-tag.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:determinism.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:deterministic-verification.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:enforce.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:example.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:finality-guard.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:freeze-guard.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:freeze-integrity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:freeze-protection.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:freeze-surface-guard.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:gates.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:governance.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:integrity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:legacy-required-statuses.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:publish-spec-repo.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:release-tag.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:release.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:reproducibility-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:required-status-publication.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:scorecard.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:spec-bundle.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:spec-immutability.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:tag-only-enforcement.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:truth-index-integrity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:ui-contract.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:verifier-output-contract.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:verifier-reproducibility.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX",
+        "to": "badge:VERIFRAX:verifrax-finality.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-API",
+        "to": "badge:VERIFRAX-API:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-DOCS",
+        "to": "badge:VERIFRAX-DOCS:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-DOCS",
+        "to": "badge:VERIFRAX-DOCS:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-DOCS",
+        "to": "badge:VERIFRAX-DOCS:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-DOCS",
+        "to": "badge:VERIFRAX-DOCS:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-DOCS",
+        "to": "badge:VERIFRAX-DOCS:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "verifrax-marketplace-smoke",
+        "to": "badge:verifrax-marketplace-smoke:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "verifrax-marketplace-smoke",
+        "to": "badge:verifrax-marketplace-smoke:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "verifrax-marketplace-smoke",
+        "to": "badge:verifrax-marketplace-smoke:dispatch-probe.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "verifrax-marketplace-smoke",
+        "to": "badge:verifrax-marketplace-smoke:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "verifrax-marketplace-smoke",
+        "to": "badge:verifrax-marketplace-smoke:marketplace-smoke.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "verifrax-marketplace-smoke",
+        "to": "badge:verifrax-marketplace-smoke:smoke.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-PROFILES",
+        "to": "badge:VERIFRAX-PROFILES:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-PROFILES",
+        "to": "badge:VERIFRAX-PROFILES:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-PROFILES",
+        "to": "badge:VERIFRAX-PROFILES:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-PROFILES",
+        "to": "badge:VERIFRAX-PROFILES:profile-guards.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SAMPLES",
+        "to": "badge:VERIFRAX-SAMPLES:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SAMPLES",
+        "to": "badge:VERIFRAX-SAMPLES:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SAMPLES",
+        "to": "badge:VERIFRAX-SAMPLES:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SAMPLES",
+        "to": "badge:VERIFRAX-SAMPLES:samples-ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SPEC",
+        "to": "badge:VERIFRAX-SPEC:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SPEC",
+        "to": "badge:VERIFRAX-SPEC:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SPEC",
+        "to": "badge:VERIFRAX-SPEC:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SPEC",
+        "to": "badge:VERIFRAX-SPEC:spec-guards.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SPEC",
+        "to": "badge:VERIFRAX-SPEC:verify-spec.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-STATUS",
+        "to": "badge:VERIFRAX-STATUS:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-STATUS",
+        "to": "badge:VERIFRAX-STATUS:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SURFACE",
+        "to": "badge:VERIFRAX-SURFACE:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SURFACE",
+        "to": "badge:VERIFRAX-SURFACE:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-SURFACE",
+        "to": "badge:VERIFRAX-SURFACE:validate-host.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:determinism-check.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:identity.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:pages-serve-guard.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:surface-validate.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-verify",
+        "to": "badge:VERIFRAX-verify:verify-ci.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-WWW",
+        "to": "badge:VERIFRAX-WWW:pages.yml",
+        "type": "publishes_badge"
+      },
+      {
+        "from": "VERIFRAX-WWW",
+        "to": "badge:VERIFRAX-WWW:surface-validate.yml",
+        "type": "publishes_badge"
       }
     ]
   }
