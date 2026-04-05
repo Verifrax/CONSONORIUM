@@ -52,3 +52,7 @@ The `inventory` runtime mode now emits a deterministic sovereign-layer inventory
 - SYNTAGMARIUM
 - ORBISTIUM
 - CONSONORIUM
+
+- Repository class: sovereign runtime and reconciliation layer
+- Public host ownership: none
+- npm package: none
