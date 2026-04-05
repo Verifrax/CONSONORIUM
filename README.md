@@ -40,6 +40,9 @@ No active Verifrax surface may contradict the reconciled epoch.
 This repository is the runtime and reconciliation layer.
 It is not the law source.
 It is not the accepted state store.
+- Repository class: sovereign runtime and reconciliation layer
+- Public host ownership: none
+- npm package: none
 
 ## License
 
