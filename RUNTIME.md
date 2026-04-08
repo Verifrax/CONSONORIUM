@@ -1,11 +1,6 @@
-# CONSONORIUM Runtime Doctrine
+# CONSONORIUM RUNTIME
 
-## Mission
-
-CONSONORIUM turns observed Verifrax state into lawful or unlawful state classifications.
-
-## Runtime modes
-
+Runtime modes:
 - inventory
 - audit
 - reconcile
@@ -16,71 +11,9 @@ CONSONORIUM turns observed Verifrax state into lawful or unlawful state classifi
 - quarantine
 - project
 
-## Required boundaries
-
-- law comes from SYNTAGMARIUM
-- accepted state is written to ORBISTIUM
-- runtime outputs do not redefine law
-- runtime outputs do not become the only truth store
-
-## Required subsystems
-
-- collectors
-- normalizers
-- evaluators
-- planners
-- compilers
-- publishers
-- GitHub runtime integration
-
-## Inventory candidate
-
-`inventory` currently emits a deterministic sovereign-layer candidate containing repository nodes and dependency edges for the law, state, and runtime layer.
-
-## Epoch candidate materialization
-
-The runtime can materialize a deterministic epoch candidate with:
-
-python3 cli/consonorium.py publish-epoch-candidate > reports/generated/sovereign-epoch-candidate.json
-
-## Check report materialization
-
-The runtime can materialize a deterministic check report with:
-
-python3 cli/consonorium.py publish-checks > reports/generated/sovereign-check-report.json
-
-## Reconcile candidate materialization
-
-The runtime can materialize a deterministic reconcile candidate with:
-
-python3 cli/consonorium.py reconcile > reports/generated/sovereign-reconcile-report.json
-
-## Audit report materialization
-
-The runtime can materialize a deterministic audit report with:
-
-python3 cli/consonorium.py audit > reports/generated/sovereign-audit-report.json
-
-## Quarantine report materialization
-
-The runtime can materialize a deterministic quarantine report with:
-
-python3 cli/consonorium.py quarantine > reports/generated/sovereign-quarantine-report.json
-
-## Repair-plan materialization
-
-The runtime can materialize a deterministic repair-plan report with:
-
-python3 cli/consonorium.py plan-repairs > reports/generated/sovereign-repair-plan.json
-
-## Mechanical-repair application materialization
-
-The runtime can materialize a deterministic mechanical-repair application report with:
-
-python3 cli/consonorium.py apply-mechanical-repairs > reports/generated/sovereign-mechanical-repair-application.json
-
-## Projection report materialization
-
-The runtime can materialize a deterministic projection report with:
-
-python3 cli/consonorium.py project > reports/generated/sovereign-projection-report.json
+Boundary:
+- consumes law from SYNTAGMARIUM
+- consumes previous accepted state from ORBISTIUM
+- emits contradiction, repair, quarantine, and epoch-candidate outputs
+- does not author law
+- does not become accepted state
