@@ -1,0 +1,193 @@
+{
+  "repos": [
+    {
+      "repo_id": ".github",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "ARCHITECTURE",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "AUCTORISEAL",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "CONSONORIUM",
+      "primary_role": "reconciler",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "CORPIFORM",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "MAILSIEVE",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "ORBISTIUM",
+      "primary_role": "world_state",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "SIGILLARIUM",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "SYNTAGMARIUM",
+      "primary_role": "constitutional_law",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX",
+      "primary_role": "evidence_root",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-API",
+      "primary_role": "tool",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-DOCS",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-PROFILES",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-SAMPLES",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-SPEC",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-STATUS",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-SURFACE",
+      "primary_role": "tool",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-WWW",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "VERIFRAX-verify",
+      "primary_role": "tool",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "apply",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "archicustos",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "attestorium",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "cicullis",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "guillotine",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "irrevocull",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "kairoclasp",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "limenward",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "originseal",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "proof",
+      "primary_role": "reference",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "validexor",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "UNKNOWN"
+    },
+    {
+      "repo_id": "verifrax-marketplace-smoke",
+      "primary_role": "unknown",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    }
+  ],
+  "hosts": [],
+  "packages": [],
+  "artifacts": []
+}
