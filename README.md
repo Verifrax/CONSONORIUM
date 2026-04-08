@@ -44,6 +44,30 @@ It is not the accepted state store.
 - Public host ownership: none
 - npm package: none
 
+## Sovereign wiring
+
+**Inputs**
+- law from SYNTAGMARIUM
+- source observations, collected signals, and reconciliation inputs
+
+**Outputs**
+- contradiction classifications
+- repair and quarantine plans
+- projection and report artifacts
+- epoch candidates for acceptance into ORBISTIUM
+
+## Acceptance boundary
+
+CONSONORIUM can compute, classify, and propose.
+
+CONSONORIUM does not define law.
+CONSONORIUM does not become accepted state.
+An epoch candidate is not canonical state until it is accepted and written into ORBISTIUM.
+
+## Non-bypass rule
+
+No runtime shortcut, projection artifact, or temporary operator decision may outrank SYNTAGMARIUM law or ORBISTIUM accepted state.
+
 ## License
 
 Apache License 2.0
