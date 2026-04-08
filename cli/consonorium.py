@@ -5,10 +5,11 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-FIXTURE = ROOT / "fixtures" / "minimal_inventory.json"
+DEFAULT_FIXTURE = ROOT / "fixtures" / "minimal_inventory.json"
 
-def load_fixture():
-    return json.loads(FIXTURE.read_text())
+def load_fixture(path=None):
+    target = Path(path) if path else DEFAULT_FIXTURE
+    return json.loads(target.read_text())
 
 def contradiction(status, severity, object_id, message, repairability, quarantine_required, evidence):
     return {
@@ -21,8 +22,8 @@ def contradiction(status, severity, object_id, message, repairability, quarantin
         "quarantine_required": quarantine_required,
     }
 
-def run(mode):
-    fixture = load_fixture()
+def run(mode, inventory_path=None):
+    fixture = load_fixture(inventory_path)
     result = {
         "mode": mode,
         "law_source": "../SYNTAGMARIUM",
@@ -58,8 +59,9 @@ def main():
         "inventory","audit","reconcile","plan-repairs","apply-mechanical-repairs",
         "publish-checks","publish-epoch-candidate","quarantine","project"
     ])
+    parser.add_argument("--inventory", dest="inventory", default=None)
     args = parser.parse_args()
-    print(json.dumps(run(args.mode), indent=2, sort_keys=True))
+    print(json.dumps(run(args.mode, args.inventory), indent=2, sort_keys=True))
 
 if __name__ == "__main__":
     main()
