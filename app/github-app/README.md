@@ -1,7 +1,10 @@
-# GitHub App Runtime
+# GitHub App runtime boundary
 
-This directory holds GitHub runtime integration for checks, repair PR creation, issue/report publishing, and controlled write operations.
+This path is reserved for:
+- check publication
+- issue/report publication
+- PR generation
+- scheduled/manual execution wrappers
 
-It is runtime only.
-It is not constitutional law.
-It is not the accepted state store.
+It is not the constitutional source.
+It is not the epoch source.

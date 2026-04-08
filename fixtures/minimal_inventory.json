@@ -1,0 +1,25 @@
+{
+  "repos": [
+    {
+      "repo_id": "SYNTAGMARIUM",
+      "primary_role": "constitutional_law",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "ORBISTIUM",
+      "primary_role": "world_state",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo_id": "CONSONORIUM",
+      "primary_role": "reconciler",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    }
+  ],
+  "hosts": [],
+  "packages": [],
+  "artifacts": []
+}
