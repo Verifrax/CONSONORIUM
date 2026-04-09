@@ -1,0 +1,22 @@
+{
+  "mode": "publish-verdict",
+  "status": "candidate",
+  "law_source": "../SYNTAGMARIUM",
+  "previous_state_source": "../ORBISTIUM/current",
+  "verdict_count": 1,
+  "verdicts": [
+    {
+      "verdict_id": "example-0001",
+      "law_ref": "SYNTAGMARIUM@main",
+      "state_ref": "ORBISTIUM@current",
+      "proof_ref": "proof:artifact-0001",
+      "execution_ref": "receipt:example-0001",
+      "verifier_version": "0.2.0",
+      "verdict": "INDETERMINATE",
+      "reason_codes": [
+        "BOOTSTRAP_REPORT"
+      ],
+      "contradictions": []
+    }
+  ]
+}
