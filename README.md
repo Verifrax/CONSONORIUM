@@ -1,5 +1,7 @@
 # CONSONORIUM
 
+CONSONORIUM is the reconciliation and runtime repository for the Verifrax system.
+
 CONSONORIUM is the Verifrax reconciliation / repair / projection boundary: the public surface that defines how the system reconciles, repairs, or projects across bounded surfaces without becoming constitutional law, canonical world-state, sovereign cognition, execution, authority issuance, or verification.
 
 ## Status
@@ -13,6 +15,7 @@ This repository owns reconciliation / repair / projection only.
 Reconciliation here means the bounded system surface that aligns, repairs, or projects across already-defined surfaces without replacing the sovereign role of law, state, cognition, execution, authority, or verification.
 
 It does not author constitutional law.
+CONSONORIUM does not define constitutional law.
 It does not hold canonical world-state as state-of-record.
 It does not perform sovereign cognition.
 It does not execute.
@@ -52,6 +55,8 @@ It does not replace adjacent sovereign boundaries.
 - `AUCTORISEAL` defines authority issuance
 - `VERIFRAX-verify` defines public verification
 - `proof` defines proof publication
+
+SYNTAGMARIUM -> CONSONORIUM -> ORBISTIUM
 
 SYNTAGMARIUM governs doctrine.
 ORBISTIUM carries canonical state.
