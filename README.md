@@ -1,108 +1,122 @@
 # CONSONORIUM
 
-CONSONORIUM is the reconciliation and runtime repository for the Verifrax system.
-
-## Proof artifacts
-
-This repository is part of the VERIFRAX proof perimeter.
-
-- **ARTIFACT-0006**
-- **ARTIFACT-0005**
-- **ARTIFACT-0004**
-- **ARTIFACT-0003**
-- **ARTIFACT-0002**
-- **ARTIFACT-0001**
-
-**Canonical public proof surface:** https://proof.verifrax.net  
-**Canonical proof publication repository:** https://github.com/Verifrax/proof  
-**Canonical evidence root:** https://github.com/Verifrax/VERIFRAX
-
-## Terminal planes
-
-- **[ANAGNORIUM](https://github.com/Verifrax/ANAGNORIUM)** — terminal recognition
-- **[REGRESSORIUM](https://github.com/Verifrax/REGRESSORIUM)** — terminal recourse
-
-## What this repository is
-
-CONSONORIUM performs runtime reconciliation against law already defined elsewhere:
-- collectors
-- normalizers
-- graph builders
-- invariant evaluators
-- contract evaluators
-- contradiction classifiers
-- trust evaluators
-- repair planners
-- quarantine planners
-- projection compilers
-- check and report publishers
-- epoch candidate publishers
-
-## What this repository is not
-
-CONSONORIUM does not define constitutional law.
-CONSONORIUM does not become the long-term world-state store.
-CONSONORIUM does not let projections outrank law or accepted epoch state.
-
-## Dependency direction
-
-SYNTAGMARIUM -> CONSONORIUM -> ORBISTIUM
-
-Law is loaded from SYNTAGMARIUM.
-Accepted outputs are written into ORBISTIUM.
-
-## Root rule
-
-No active Verifrax surface may contradict the reconciled epoch.
+CONSONORIUM is the Verifrax reconciliation / repair / projection boundary: the public surface that defines how the system reconciles, repairs, or projects across bounded surfaces without becoming constitutional law, canonical world-state, sovereign cognition, execution, authority issuance, or verification.
 
 ## Status
 
-This repository is the runtime and reconciliation layer.
-It is not the law source.
-It is not the accepted state store.
-- Repository class: sovereign runtime and reconciliation layer
-- Public host ownership: none
-- npm package: none
+Active public sovereign boundary with an explicit reconciliation / repair / projection role inside the Verifrax stack.
 
-## Sovereign wiring
+## Boundary
 
-**Inputs**
-- law from SYNTAGMARIUM
-- source observations, collected signals, and reconciliation inputs
+This repository owns reconciliation / repair / projection only.
 
-**Outputs**
-- contradiction classifications
-- repair and quarantine plans
-- projection and report artifacts
-- epoch candidates for acceptance into ORBISTIUM
+Reconciliation here means the bounded system surface that aligns, repairs, or projects across already-defined surfaces without replacing the sovereign role of law, state, cognition, execution, authority, or verification.
 
-## Acceptance boundary
+It does not author constitutional law.
+It does not hold canonical world-state as state-of-record.
+It does not perform sovereign cognition.
+It does not execute.
+It does not verify.
+It does not issue authority-of-record.
+It does not publish proof as proof authority.
+It does not operate intake.
+It does not replace adjacent sovereign boundaries.
 
-CONSONORIUM can compute, classify, and propose.
+## What it does
 
-CONSONORIUM does not define law.
-CONSONORIUM does not become accepted state.
-An epoch candidate is not canonical state until it is accepted and written into ORBISTIUM.
+- defines the public reconciliation surface of CONSONORIUM
+- states what repair and projection mean inside the Verifrax system
+- preserves reconciliation language as a bounded sovereign function
+- provides a clean repair boundary for adjacent repositories and public readers
+- anchors reconciliation as distinct from law, state, cognition, authority, execution, and verification
 
-## Non-bypass rule
+## What it does not do
 
-No runtime shortcut, projection artifact, or temporary operator decision may outrank SYNTAGMARIUM law or ORBISTIUM accepted state.
-
-## License
-
-Apache License 2.0
-
-## Sovereign inventory candidate
-
-The `inventory` runtime mode now emits a deterministic sovereign-layer inventory candidate for:
-
-- SYNTAGMARIUM
-- ORBISTIUM
-- CONSONORIUM
+- not constitutional doctrine; that belongs to SYNTAGMARIUM
+- not canonical world-state; that belongs to ORBISTIUM
+- not sovereign cognition; that belongs to TACHYRIUM
+- not authority issuance; that belongs to AUCTORISEAL
+- not governed execution; that belongs to CORPIFORM
+- not enforcement boundary; that belongs to cicullis
+- not public verification; that belongs to VERIFRAX-verify
+- not proof publication; that belongs to proof
+- not intake; that belongs to apply
+- not terminal recognition; that belongs to ANAGNORIUM
+- not terminal recourse; that belongs to REGRESSORIUM
 
 ## Adjacent sovereign surfaces
 
-This repository is part of the Verifrax sovereign stack and remains bounded relative to:
+- `SYNTAGMARIUM` defines constitutional law and doctrine
+- `ORBISTIUM` defines canonical world-state
+- `TACHYRIUM` defines bounded sovereign cognition
+- `AUCTORISEAL` defines authority issuance
+- `VERIFRAX-verify` defines public verification
+- `proof` defines proof publication
 
-- **[ANAGNORIUM](https://github.com/Verifrax/ANAGNORIUM)** for terminal recognition
-- **[REGRESSORIUM](https://github.com/Verifrax/REGRESSORIUM)** for terminal recourse
+SYNTAGMARIUM governs doctrine.
+ORBISTIUM carries canonical state.
+TACHYRIUM governs cognition.
+CONSONORIUM reconciles.
+
+That separation must remain explicit.
+
+## Public surface
+
+The public surface of this repository is its repository identity, README boundary, and any explicitly published CONSONORIUM reconciliation materials carried by this repository.
+
+Publication here is not law.
+Publication here is not execution.
+Publication here is not verification.
+Publication here is not canonical state.
+Publication here is not sovereign cognition.
+
+## Package / host / repo truth
+
+Repository truth for CONSONORIUM lives in this repository.
+
+If a package, site, or host is later attached, those surfaces must remain subordinate to the bounded repository role declared here unless and until the system explicitly states otherwise.
+
+## Reconciliation meaning in-system
+
+Reconciliation in-system means the stack can point to CONSONORIUM and say that a bounded repair, alignment, or projection function belongs to this boundary.
+
+Reconciliation here aligns.
+Reconciliation here does not overtake.
+
+That does not by itself mean:
+
+- the result became constitutional law
+- the result became canonical world-state
+- the result was verified
+- the result was executed
+- the result was cognitively derived by TACHYRIUM
+- the result became authority-of-record
+- the result became proof authority
+
+How reconciliation differs from authority:
+- authority issues or binds authority-of-record
+- reconciliation aligns or repairs across bounded surfaces without issuing authority
+
+How reconciliation differs from verification:
+- verification determines whether an artifact, claim, or surface verifies under its own boundary
+- reconciliation repairs, aligns, or projects without becoming the verifier
+
+How reconciliation differs from canonical state:
+- canonical state is what ORBISTIUM carries as state-of-record
+- reconciliation may project around state, but it does not become the state-of-record boundary
+
+## Not this
+
+CONSONORIUM is not a constitution.
+CONSONORIUM is not canonical world-state.
+CONSONORIUM is not sovereign cognition.
+CONSONORIUM is not a verifier.
+CONSONORIUM is not an execution engine.
+CONSONORIUM is not authority-of-record.
+CONSONORIUM is not proof authority.
+
+A cold reader should not confuse CONSONORIUM with SYNTAGMARIUM, ORBISTIUM, or TACHYRIUM:
+SYNTAGMARIUM governs doctrine;
+ORBISTIUM carries canonical world-state;
+TACHYRIUM governs cognition;
+CONSONORIUM governs reconciliation / repair / projection.
