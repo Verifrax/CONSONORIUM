@@ -17,3 +17,6 @@ Boundary:
 - emits contradiction, repair, quarantine, and epoch-candidate outputs
 - does not author law
 - does not become accepted state
+- must not directly mutate constitutional law surfaces
+- must not directly mutate accepted-state surfaces
+- current machine-readable runtime subordination object: `runtime/current/runtime-subordination-0001.json`

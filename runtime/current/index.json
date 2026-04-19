@@ -1,0 +1,15 @@
+{
+  "object_type": "RuntimeBoundaryIndex",
+  "status": "ACTIVE_TRUTH",
+  "historical": false,
+  "current_runtime_boundary_ref": "runtime/current/runtime-subordination-0001.json",
+  "entries": [
+    {
+      "runtime_boundary_id": "runtime-subordination-0001",
+      "path": "runtime/current/runtime-subordination-0001.json",
+      "role": "reconciliation_repair_projection",
+      "accepted_epoch_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json",
+      "constitutional_law_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/law/versions/current/law-version-0001.json"
+    }
+  ]
+}
