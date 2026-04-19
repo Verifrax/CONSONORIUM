@@ -125,3 +125,4 @@ SYNTAGMARIUM governs doctrine;
 ORBISTIUM carries canonical world-state;
 TACHYRIUM governs cognition;
 CONSONORIUM governs reconciliation / repair / projection.
+- current machine-readable runtime-subordination object: `runtime/current/runtime-subordination-0001.json`

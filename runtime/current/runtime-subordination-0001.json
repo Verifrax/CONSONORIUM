@@ -1,0 +1,55 @@
+{
+  "object_type": "RuntimeSubordinationBoundary",
+  "runtime_boundary_id": "runtime-subordination-0001",
+  "status": "ACTIVE_TRUTH",
+  "role": "reconciliation_repair_projection",
+  "non_roles": [
+    "constitutional_law",
+    "accepted_state_store",
+    "authority_issuance",
+    "verification_truth",
+    "sovereign_cognition",
+    "execution_authority"
+  ],
+  "governing_inputs": {
+    "constitutional_law_ref": "https://github.com/Verifrax/SYNTAGMARIUM/blob/main/law/versions/current/law-version-0001.json",
+    "accepted_epoch_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json"
+  },
+  "allowed_runtime_modes": [
+    "inventory",
+    "audit",
+    "reconcile",
+    "plan-repairs",
+    "apply-mechanical-repairs",
+    "publish-checks",
+    "publish-epoch-candidate",
+    "quarantine",
+    "project"
+  ],
+  "deterministic_evaluator_test_refs": [
+    "tests/test_check_report.py",
+    "tests/test_audit_report.py",
+    "tests/test_verdict_report.py"
+  ],
+  "repair_planner_test_refs": [
+    "tests/test_repair_plan.py",
+    "tests/test_apply_mechanical_repairs.py"
+  ],
+  "quarantine_planner_test_refs": [
+    "tests/test_quarantine_report.py"
+  ],
+  "projection_compiler_test_refs": [
+    "tests/test_projection_report.py"
+  ],
+  "forbidden_mutations": [
+    "must not directly mutate constitutional law surfaces",
+    "must not directly mutate accepted-state surfaces",
+    "must not issue authority",
+    "must not publish verification truth as truth-of-record"
+  ],
+  "history_ref": "runtime/history/",
+  "notes": [
+    "CONSONORIUM consumes law and accepted state as inputs only.",
+    "Epoch candidates, repairs, projections, and quarantines remain subordinate runtime outputs until adjacent sovereign chambers admit them."
+  ]
+}
