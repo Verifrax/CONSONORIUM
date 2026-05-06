@@ -1,0 +1,14 @@
+{
+  "object_type": "ProjectionLockIndex",
+  "status": "ACTIVE_PROJECTION_CONTRACT",
+  "governing_boundary": "CONSONORIUM",
+  "current_projection_lock_ref": "projections/current/projection-lock-0001.json",
+  "entries": [
+    {
+      "projection_lock_id": "projection-lock-0001",
+      "path": "projections/current/projection-lock-0001.json",
+      "status": "ACTIVE_PROJECTION_CONTRACT"
+    }
+  ],
+  "historical_archive_ref": "projections/history/"
+}

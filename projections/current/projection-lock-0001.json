@@ -1,0 +1,39 @@
+{
+  "object_type": "ProjectionLock",
+  "projection_lock_id": "projection-lock-0001",
+  "status": "ACTIVE_PROJECTION_CONTRACT",
+  "governing_boundary": "CONSONORIUM",
+  "accepted_epoch_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/epochs/current/accepted-epoch-0001.json",
+  "chain_lock_ref": "https://github.com/Verifrax/ORBISTIUM/blob/main/chains/current/minimum-object-chain-lock-0001.json",
+  "admissions_ref": "https://github.com/Verifrax/.github/blob/main/governance/ADMISSIONS.json",
+  "projected_surfaces": [
+    ".github/profile/README.md",
+    "VERIFRAX-WWW/index.html",
+    "VERIFRAX-DOCS",
+    "VERIFRAX-STATUS",
+    "proof",
+    "verify",
+    "api",
+    "package tables"
+  ],
+  "must_match_fields": [
+    "governed_repository_count",
+    "public_repository_count",
+    "sovereign_chamber_count",
+    "host_count",
+    "npm_package_count",
+    "core_package_order_count",
+    "pypi_package_boundary_count",
+    "chain_stage_count",
+    "chain_object_refs"
+  ],
+  "failure_class": "PROJECTION_DRIFT",
+  "repair_class": "ADMISSORIUM_PROJECTION_REPAIR_ALLOWED_UNLESS_PROTECTED_PATH_TOUCHED",
+  "forbidden_projection": [
+    "Projection may not collapse governed repository count and public repository count.",
+    "Projection may not replace active chain objects.",
+    "Projection may not count private packages as public packages.",
+    "Projection may not count SDK existence as sovereign participation.",
+    "Projection may not cite ADMISSORIUM as truth source."
+  ]
+}
