@@ -1,0 +1,11 @@
+{
+  "answers": "WHAT_IS_STATE",
+  "system_complete": false,
+  "source_public_control_chain_state": "CONSONORIUM_V010_PUBLIC_CONTROL_CHAIN_OPEN",
+  "source_public_control_intake_sha": "9a22e2fcf1288e0e410e2e9a3a72f0c67f78ade2",
+  "public_control_denials": {
+    "real_writer": false,
+    "token_persistence": false,
+    "truth_mutation": false
+  }
+}
